@@ -59,7 +59,8 @@
   margin-top: 80px;
 }
 
-.description {
+.description,
+.digits {
   margin: 100px auto;
 }
 
@@ -95,4 +96,29 @@
 
 .two-columns__span-accent {
   font-weight: bold;
+}
+
+.table {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: auto;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  margin-top: 20px;
 }
