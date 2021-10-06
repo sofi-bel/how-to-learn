@@ -111,6 +111,11 @@
   margin-top: 60px;
 }
 
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+}
+
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
@@ -121,4 +126,9 @@
   line-height: 1.2;
   font-size: 18px;
   margin-top: 20px;
+}
+
+.kaufman {
+  background-color: #1f1f1f;
+  padding: 90px 0;
 }
