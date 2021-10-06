@@ -1,3 +1,27 @@
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/Inter-Regular.woff2") format("woff2"),
+       url("../assets/fonts/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/Inter-SemiBold.woff2") format("woff2"),
+       url("../assets/fonts/Inter-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/Inter-Bold.woff2") format("woff2"),
+       url("../assets/fonts/Inter-Bold.woff") format("woff");
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -6,7 +30,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
 }
 
 .header {
