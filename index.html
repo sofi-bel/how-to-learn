@@ -6,12 +6,11 @@
   <meta name="description" content="Научиться учиться">
   <meta name="keywords" content="HTML5, CSS">
   <meta name="author" content="Anastasiia Metikova">
-  <link rel="stylesheet" href="./src/assets/styles/normalize.css">
-  <link rel="stylesheet" href="./src/assets/styles/style.css">
+  <link rel="stylesheet" href="vendor/normalize.css">
+  <link rel="stylesheet" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
-<body>
-  <div class="page">
+<body class="root page centered-block">
     <header class="header">
       <img src="/src/assets/images/logo_place_header.svg" alt="logo" class="logo logo_place_header">
       <h1 class="header__title">Научиться учиться</h1>
@@ -23,7 +22,7 @@
     </header>
     <main class="content">
       <section class="description">
-        <div class="two-columns">
+        <div class="two-columns centered-block">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать
@@ -45,7 +44,7 @@
       </section>
 
       <section class="digits">
-        <div class="table">
+        <div class="table centered-block">
           <div class="table__cell">
             <h4 class="table__heading">86 миллиардов</h4>
             <p class="table__text">Число нейронов в мозге человека</p>
@@ -83,7 +82,7 @@
       </section>
 
       <section class="kaufman">
-        <div class="table table_theme_dark">
+        <div class="table table_theme_dark centered-block">
           <div class="table__cell table__cell_theme_dark">
             <h4 class="table__heading table__heading_theme_dark">1</h4>
             <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
@@ -134,6 +133,5 @@
     <footer class="footer">
 
     </footer>
-  </div>
 </body>
 </html>
