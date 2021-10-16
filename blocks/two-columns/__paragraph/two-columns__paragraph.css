@@ -2,11 +2,6 @@
   margin-bottom: 30px;
 }
 
-/*TODO: не правильно, сделать миксин  или смотреть внизу*/
-.two-columns__paragraph_last {
-  margin-bottom: 0;
-}
-
 .two-columns__paragraph:last-of-type {
   margin-bottom: 0;
 }
