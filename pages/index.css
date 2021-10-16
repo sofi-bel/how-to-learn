@@ -3,6 +3,8 @@
 @import url(../blocks/centered-block/centered-block.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/rotation/rotation.css);
+@import url(../blocks/section/_paddings/_s/section_paddings_s.css);
+@import url(../blocks/section/_paddings/_m/section_paddings_m.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
