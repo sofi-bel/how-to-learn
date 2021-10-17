@@ -9,6 +9,7 @@
 @import url(../blocks/section/_paddings/_m/section_paddings_m.css);
 @import url(../blocks/section/_padding-top/_m/section_padding-top_m.css);
 @import url(../blocks/section/_padding-top/_l/section_padding-top_l.css);
+@import url(../blocks/section/_padding-bottom/_l/section_padding-bottom_l.css);
 @import url(../blocks/section/_margin/_negative-bottom/section_margin_negative-bottom.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
@@ -64,3 +65,5 @@
 @import url(../blocks/khan/__buy-link/khan__buy-link.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
