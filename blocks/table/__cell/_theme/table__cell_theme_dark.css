@@ -4,4 +4,6 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  position: relative;
+  z-index: 2;
 }
