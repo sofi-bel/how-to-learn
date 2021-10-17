@@ -2,10 +2,6 @@
   margin-bottom: 30px;
 }
 
-.two-columns__paragraph:first-of-type {
-  margin-top: 0;
-}
-
 .two-columns__paragraph:last-of-type {
   margin-bottom: 0;
 }
