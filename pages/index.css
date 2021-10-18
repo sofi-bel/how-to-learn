@@ -22,6 +22,7 @@
 @import url(../blocks/logo/_place/_header/logo_place_header.css);
 @import url(../blocks/logo/_place/_footer/logo_place_footer.css);
 @import url(../blocks/description/description.css);
+@import url(../blocks/description/__two-columns/description__two-columns.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
