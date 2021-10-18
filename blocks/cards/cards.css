@@ -3,4 +3,6 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
   column-gap: 100px;
+  list-style: none;
+  padding: 0;
 }
