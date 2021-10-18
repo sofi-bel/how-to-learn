@@ -59,6 +59,7 @@
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/__section-title/digits__section-title.css);
 @import url(../blocks/digits/__section-subtitle/digits__section-subtitle.css);
+@import url(../blocks/digits/__table/digits__table.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
