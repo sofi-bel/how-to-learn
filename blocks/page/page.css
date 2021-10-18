@@ -5,4 +5,5 @@
   max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
   font-family: 'Inter', 'Arial', sans-serif;
+  margin: 0 auto;
 }
