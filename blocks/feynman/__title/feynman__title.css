@@ -4,6 +4,7 @@
   font-size: 120px;
   display: flex;
   justify-content: center;
-  margin: 100px auto 70px;
+  margin: 0 auto 70px;
+  padding-top: 100px;
   text-align: center;
 }
