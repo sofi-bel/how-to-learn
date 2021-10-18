@@ -1,6 +1,4 @@
-.cards__description {
-  line-height: 23px;
-  font-size: 18px;
+.techniques__section-subtitle {
   display: flex;
   justify-content: center;
   margin: 0 auto;

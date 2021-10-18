@@ -29,6 +29,9 @@
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 @import url(../blocks/techniques/techniques.css);
+@import url(../blocks/techniques/__section-title/techniques__section-title.css);
+@import url(../blocks/techniques/__section-subtitle/techniques__section-subtitle.css);
+@import url(../blocks/techniques/__cards/techniques__cards.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_theme/_dark/section-title_theme_dark.css);
 @import url(../blocks/section-title/_margin-bottom/_m/section-title_margin-bottom_m.css);
