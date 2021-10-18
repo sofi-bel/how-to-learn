@@ -1,3 +1,5 @@
 .khan__container {
   width: 80%;
+  margin: auto;
+  padding-top: 100px;
 }
