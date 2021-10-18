@@ -1,6 +1,9 @@
 .feynman__title {
   width: 648px;
-  margin-bottom: 70px;
   line-height: 1.15;
   font-size: 120px;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto 70px;
+  text-align: center;
 }
