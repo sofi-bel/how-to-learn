@@ -2,6 +2,7 @@
 
 [![wakatime](https://wakatime.com/badge/user/29a8352f-15fa-421a-b8ff-a7adff87a0dc/project/9f1fe3d1-b18a-4869-883a-abeeb65d8f2a.svg)](https://wakatime.com/badge/user/29a8352f-15fa-421a-b8ff-a7adff87a0dc/project/9f1fe3d1-b18a-4869-883a-abeeb65d8f2a)
 ![GitHub last commit](https://img.shields.io/github/last-commit/a-meti/how-to-learn)
+[![GitHub license](https://img.shields.io/github/license/a-meti/how-to-learn)](https://github.com/a-meti/russian-travel/blob/main/LICENSE)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=a-meti)](https://github.com/a-meti/how-to-learn)
 
