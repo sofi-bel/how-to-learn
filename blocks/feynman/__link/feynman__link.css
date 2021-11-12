@@ -2,7 +2,13 @@
   position: absolute;
   top: 50%;
   right: 48px;
-  line-height: 51px;
   font-size: 36px;
-  font-weight: normal;
+  line-height: 51px;
+  color: #2f80ed;
+  text-decoration: none;
+  transition: opacity 1s ease-out;
+}
+
+.feynman__link:hover {
+  opacity: 0.3;
 }

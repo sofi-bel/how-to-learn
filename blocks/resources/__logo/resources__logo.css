@@ -1,4 +1,13 @@
 .resources__logo {
+  padding: 0;
   width: 270px;
   height: 38px;
+  object-fit: contain;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-in-out;
+}
+
+.resources__logo:hover {
+  opacity: 0.3;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }

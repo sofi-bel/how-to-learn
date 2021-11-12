@@ -1,8 +1,5 @@
 .cards__title {
-  line-height: 1.15;
+  margin: 43px 0 16px;
   font-size: 24px;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto 16px;
-  text-align: center;
+  line-height: 1.15;
 }

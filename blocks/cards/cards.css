@@ -1,8 +1,5 @@
 .cards {
-  width: 920px;
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  column-gap: 100px;
-  list-style: none;
-  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
 }

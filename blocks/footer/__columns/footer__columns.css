@@ -2,8 +2,5 @@
   width: 90%;
   display: flex;
   justify-content: space-between;
-  min-height: 250px;
-  margin: auto;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  margin: 0 auto;
 }

@@ -1,0 +1,7 @@
+.page__footer {
+  min-height: 350px;
+  padding: 60px 0 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

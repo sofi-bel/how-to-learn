@@ -1,9 +1,7 @@
 .cards__image {
-  height: 160px;
   width: 160px;
+  height: 160px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto 43px;
-  text-align: center;
 }
