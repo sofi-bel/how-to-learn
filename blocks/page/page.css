@@ -1,3 +1,9 @@
 .page {
   font-family: 'Inter', 'Arial', sans-serif;
 }
+
+/*TODO:
+   - добавить адаптивность
+   - заменить px на rem,em, %
+   - избавиться от normalize.css
+*/
