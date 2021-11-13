@@ -7,7 +7,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=a-meti)](https://github.com/a-meti/how-to-learn)
 
 
-Учебный проект для отработки статической верстки в рамках обучения в [Яндекс.Практикуме Веб-разработчик плюс](https://practicum.yandex.ru/web-plus/) 7 поток.
+Учебный проект для отработки статической верстки в рамках обучения в [Яндекс.Практикуме Веб-разработчик плюс.](https://practicum.yandex.ru/web-plus/)
 Одностраничный сайт об образовательных техниках и статистики в обучении.
 
 
@@ -16,6 +16,7 @@
 * Flexbox
 * CSS grid
 * BEM
+* BEM Nested
 
 ## Demo
 
