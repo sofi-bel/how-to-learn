@@ -1,4 +1,4 @@
-# Научиться учиться
+# Проект: Научиться учиться
 
 [![wakatime](https://wakatime.com/badge/user/29a8352f-15fa-421a-b8ff-a7adff87a0dc/project/9f1fe3d1-b18a-4869-883a-abeeb65d8f2a.svg)](https://wakatime.com/badge/user/29a8352f-15fa-421a-b8ff-a7adff87a0dc/project/9f1fe3d1-b18a-4869-883a-abeeb65d8f2a)
 ![GitHub last commit](https://img.shields.io/github/last-commit/a-meti/how-to-learn)
