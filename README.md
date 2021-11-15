@@ -4,9 +4,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/a-meti/how-to-learn)
 [![GitHub license](https://img.shields.io/github/license/a-meti/how-to-learn)](https://github.com/a-meti/russian-travel/blob/main/LICENSE)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=a-meti)](https://github.com/a-meti/how-to-learn)
-
-
 Учебный проект для отработки статической верстки в рамках обучения в [Яндекс.Практикуме Веб-разработчик плюс.](https://practicum.yandex.ru/web-plus/)
 Одностраничный сайт об образовательных техниках и статистики в обучении.
 
