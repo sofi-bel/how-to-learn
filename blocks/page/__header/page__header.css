@@ -1,7 +1,7 @@
 .page__header {
   height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
+  min-height: 37.5rem;
+  max-height: 47.25rem;
   position: relative;
   z-index: 1;
 }

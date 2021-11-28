@@ -1,5 +1,5 @@
 .page_centered {
-  min-width: 1100px;
-  max-width: 1600px;
+  min-width: 68.75rem;
+  max-width: 100rem;
   margin: 0 auto;
 }
