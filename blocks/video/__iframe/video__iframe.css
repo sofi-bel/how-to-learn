@@ -1,9 +1,9 @@
 .video__iframe {
-  width: 515px;
-  height: 316px;
+  width: 32.1875rem;
+  height: 19.75rem;
   position: relative;
   z-index: 1;
-  margin-right: 20px;
+  margin-right: 1.25rem;
   border: none;
 }
 
