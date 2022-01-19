@@ -1,5 +1,8 @@
 .video__iframes {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 35rem);
+  grid-template-rows: 19.75rem;
+  gap: 1.25rem;
   margin: 3.125rem 0 0;
   padding: 0;
   justify-content: center;

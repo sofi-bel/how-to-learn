@@ -25,6 +25,7 @@
   <meta name="theme-color" content="#ffffff">
   <meta name="google-site-verification" content="Ea9NWQU5CDgPbBBq3ivltxc9kZ43a4avIPfmgYW5bZM" />
   <title>Научиться учиться</title>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.3.1/lite-youtube.js"></script>
   <link rel="stylesheet" href="pages/index.css">
 </head>
 <body class="page page_centered">
@@ -161,16 +162,20 @@
         </p>
         <ul class="video__iframes">
           <li class="video__item">
-            <!--TODO: заменить на ленивую загрузку -->
-            <iframe class="video__iframe" title="Inside the mind of a master procrastinator | Tim Urban"
-                    src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen>
-          </iframe>
+            <lite-youtube
+              class="video__iframe"
+              videotitle="Inside the mind of a master procrastinator | Tim Urban"
+              videoid="arj7oStGLkU"
+            >
+            </lite-youtube>
           </li>
           <li class="video__item">
-            <!--TODO: заменить на ленивую загрузку -->
-            <iframe class="video__iframe" title="The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU"
-                    src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen>
-            </iframe>
+            <lite-youtube
+              class="video__iframe"
+              videotitle="The first 20 hours &#45;&#45; how to learn anything | Josh Kaufman | TEDxCSU"
+              videoid="5MgBikgcWnY"
+            >
+            </lite-youtube>
           </li>
         </ul>
       </section>
