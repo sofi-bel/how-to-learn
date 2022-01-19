@@ -1,7 +1,6 @@
 .khan__book-pic {
-  width: 38.75rem;
+  width: 100%;
   height: 38rem;
-  margin-right: 3rem;
   object-fit: cover;
   object-position: top;
 }
