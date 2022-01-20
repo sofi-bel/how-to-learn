@@ -1,5 +1,10 @@
 .page_centered {
-  min-width: 68.75rem;
   max-width: 100rem;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .page {
+    min-width: 68.75rem;
+  }
 }

@@ -4,6 +4,8 @@
   transition: opacity 1s ease-out;
 }
 
-.header__link:hover {
-  opacity: 0.3;
+@media screen and (min-width: 992px) {
+  .header__link:hover {
+    opacity: 0.3;
+  }
 }

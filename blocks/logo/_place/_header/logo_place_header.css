@@ -2,6 +2,12 @@
   height: 2rem;
   background-image: url('../../../../images/logo.svg');
   position: absolute;
-  left: 4rem;
+  left: 1rem;
   top: 1.875rem;
+}
+
+@media screen and (min-width: 992px) {
+  .logo_place_header {
+    left: 4rem;
+  }
 }

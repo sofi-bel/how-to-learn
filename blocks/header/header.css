@@ -6,14 +6,16 @@
   overflow: hidden;
 }
 
-.header::after {
-  content: "";
-  height: 35.5rem;
-  width: 35.5rem;
-  background-color: #006cd6;
-  position: absolute;
-  top: 4rem;
-  right: 0;
-  z-index: -1;
-  animation: rotate linear infinite 20s;
+@media screen and (min-width: 1280px) {
+  .header::after {
+    content: "";
+    height: 35.5rem;
+    width: 35.5rem;
+    background-color: #006cd6;
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    z-index: -1;
+    animation: rotate linear infinite 20s;
+  }
 }
