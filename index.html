@@ -51,7 +51,7 @@
     </header>
 
     <main class="content">
-      <section class="description page__description" aria-label="Блок со статьей">
+      <section class="description page__description section page__section" aria-label="Блок со статьей">
 <!--TODO: переименовать two-columns по БЭМ-->
         <article class="two-columns description__two-columns">
           <h2 class="two-columns__brief title">
@@ -76,7 +76,7 @@
         </article>
       </section>
 
-      <section class="techniques page__techniques">
+      <section class="techniques page__techniques section page__section">
         <h2 class="section-title title">
           Техники обучения
         </h2>
@@ -86,7 +86,7 @@
         <ul class="cards techniques__cards">
           <li class="cards__item">
             <!--TODO: добавить srcset-->
-            <picture>
+            <picture class="cards__image-wrap">
               <source srcset="./images/cards-attention.webp" type="image/webp"/>
               <img src="./images/cards-attention.png" alt="Книга в руках" class="cards__image">
             </picture>
@@ -99,7 +99,7 @@
           </li>
           <li class="cards__item">
             <!--TODO: добавить srcset-->
-            <picture>
+            <picture class="cards__image-wrap">
               <source srcset="./images/cards-recall.webp" type="image/webp"/>
               <img src="./images/cards-recall.png" alt="Статуя" class="cards__image">
             </picture>
@@ -112,7 +112,7 @@
           </li>
           <li class="cards__item">
             <!--TODO: добавить srcset-->
-            <picture>
+            <picture class="cards__image-wrap">
               <source srcset="./images/cards-interliving.webp" type="image/webp"/>
               <img src="./images/cards-interliving.png" alt="Зал" class="cards__image">
             </picture>
@@ -125,7 +125,7 @@
           </li>
           <li class="cards__item">
             <!--TODO: добавить srcset-->
-            <picture>
+            <picture class="cards__image-wrap">
               <source srcset="./images/cards-question.webp" type="image/webp"/>
               <img src="./images/cards-question.png" alt="Белая комната" class="cards__image">
             </picture>
@@ -139,7 +139,7 @@
           </li>
           <li class="cards__item">
             <!--TODO: добавить srcset-->
-            <picture>
+            <picture class="cards__image-wrap">
               <source srcset="./images/cards-competence.webp" type="image/webp"/>
               <img src="./images/cards-competence.png" alt="Стопка книг" class="cards__image">
             </picture>
