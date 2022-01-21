@@ -1,4 +1,4 @@
-.two-columns {
+.article {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .two-columns {
+  .article {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;

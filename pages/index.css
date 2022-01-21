@@ -22,10 +22,10 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/_header/logo_place_header.css);
 @import url(../blocks/logo/_place/_footer/logo_place_footer.css);
-@import url(../blocks/two-columns/two-columns.css);
-@import url(../blocks/two-columns/__brief/two-columns__brief.css);
-@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../blocks/article/article.css);
+@import url(../blocks/article/__title/article__title.css);
+@import url(../blocks/article/__paragraph/article__paragraph.css);
+@import url(../blocks/article/__span-accent/article__span-accent.css);
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/techniques/__cards/techniques__cards.css);
 @import url(../blocks/section-title/section-title.css);
