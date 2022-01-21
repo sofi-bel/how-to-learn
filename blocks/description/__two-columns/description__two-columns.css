@@ -1,4 +1,10 @@
 .description__two-columns {
-  width: 80%;
-  margin: 6.25rem auto;
+  margin: 3rem auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .description__two-columns {
+    max-width: 80%;
+    margin: 6rem auto;
+  }
 }

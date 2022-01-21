@@ -5,6 +5,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/_centered/page_centered.css);
 @import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__description/page__description.css);
 @import url(../blocks/page/__techniques/page__techniques.css);
 @import url(../blocks/page/__video/page__video.css);
 @import url(../blocks/page/__oakley/page__oakley.css);
@@ -25,7 +26,6 @@
 @import url(../blocks/description/__two-columns/description__two-columns.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
-@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 @import url(../blocks/techniques/techniques.css);

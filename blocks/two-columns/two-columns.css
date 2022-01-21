@@ -1,5 +1,14 @@
 .two-columns {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .two-columns {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 }
