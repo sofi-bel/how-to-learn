@@ -1,5 +1,4 @@
 .header__title {
-  padding: 0 1rem;
   max-width: 27.5rem;
   font-size: 3.052rem;
   line-height: 1.3;
@@ -8,7 +7,7 @@
 @media screen and (min-width: 992px) {
   .header__title {
     max-width: 45.625rem;
-    padding-left: 4rem;
+    padding-left: 3rem;
     font-size: 6.375rem;
     line-height: 0.94;
   }
