@@ -1,9 +1,4 @@
 .table__text {
-  margin: 1.25rem 0;
-  font-size: 1.125rem;
-  line-height: 1.2;
+  margin: 0;
 }
 
-.table__text:last-of-type {
-  margin-bottom: 0;
-}

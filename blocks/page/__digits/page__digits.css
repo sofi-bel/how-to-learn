@@ -1,6 +1,4 @@
 .page__digits {
-  max-width: 68.75rem;
-  margin: 6.25rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
