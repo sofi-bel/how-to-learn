@@ -1,14 +1,18 @@
 .feynman__link {
-  position: absolute;
-  top: 50%;
-  right: 3rem;
-  font-size: 2.25rem;
-  line-height: 1.42;
+  margin: 0;
   color: #006cd6;
   text-decoration: none;
   transition: opacity 1s ease-out;
 }
 
-.feynman__link:hover {
-  opacity: 0.3;
+@media screen and (min-width: 992px) {
+  .feynman__link:hover {
+    opacity: 0.3;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .feynman__link {
+    text-align: right;
+  }
 }

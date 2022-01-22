@@ -1,4 +1,21 @@
 .page__feynman {
-  min-height: 55.625rem;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem 15rem;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 992px) {
+  .page__feynman {
+    min-height: 15rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page__feynman {
+    padding: 0 10% 6rem;
+    max-width: 100%;
+    min-height: 32rem;
+  }
 }

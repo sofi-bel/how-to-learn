@@ -1,6 +1,9 @@
 .feynman__subtitle {
-  margin: 4.375rem 0;
-  font-size: 2.25rem;
-  line-height: 1.42;
-  text-align: center;
+  margin: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .feynman__subtitle {
+    text-align: center;
+  }
 }
