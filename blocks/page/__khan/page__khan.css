@@ -1,6 +1,7 @@
 .page__khan {
   flex-direction: column;
   padding: 3rem 1rem;
+  margin-bottom: 0;
   overflow: hidden;
 }
 @media screen and (min-width: 992px) {
