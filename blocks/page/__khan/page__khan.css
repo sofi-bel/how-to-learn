@@ -1,3 +1,17 @@
 .page__khan {
-  padding-top: 6.5625rem;
+  flex-direction: column;
+  padding: 3rem 1rem;
+  overflow: hidden;
+}
+@media screen and (min-width: 992px) {
+  .page__khan {
+    padding: 3rem 1rem 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page__khan {
+    padding: 6rem 10% 0;
+    max-width: 100%;
+  }
 }

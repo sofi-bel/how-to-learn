@@ -1,6 +1,5 @@
-.khan__quote {
-  margin: 1.625rem 0;
-  max-width: 49.375rem;
-  font-size: 1.5rem;
-  line-height: 1.42;
+@media screen and (min-width: 768px) {
+  .khan__quote {
+    max-width: 50%;
+  }
 }
