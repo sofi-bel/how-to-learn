@@ -1,6 +1,13 @@
 .resources__logo-zone {
-  width: 68.75rem;
-  margin: 5rem auto 13.5625rem;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  list-style: none;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+  .resources__logo-zone {
+    grid-gap: 6rem;
+  }
 }
