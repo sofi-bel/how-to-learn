@@ -1,4 +1,4 @@
 .khan__book-pic {
-  display: flex;
-  max-height: 38rem;
+  aspect-ratio: 7/6;
+  object-position: top left;
 }
