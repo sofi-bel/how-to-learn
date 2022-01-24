@@ -1,6 +1,14 @@
 .footer__columns {
-  width: 90%;
   display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  min-width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__columns {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

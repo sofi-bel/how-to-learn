@@ -1,11 +1,11 @@
 .footer__column-link {
-  font-size: 1.125rem;
-  line-height: 1.67;
   color: #ffffff;
   text-decoration: none;
   transition: opacity 1s ease-out;
 }
 
-.footer__column-link:hover {
-  opacity: 0.3;
+@media screen and (min-width: 1280px) {
+  .footer__column-link:hover {
+    opacity: 0.3;
+  }
 }

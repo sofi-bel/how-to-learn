@@ -1,4 +1,10 @@
 .footer__column_content_copyright {
-  flex-basis: 44.4375rem;
+  min-width: 100%;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 992px) {
+  .footer__column_content_copyright {
+    min-width: 50%;
+  }
 }

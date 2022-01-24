@@ -1,4 +1,5 @@
 .logo {
+  display: flex;
   width: 11.4375rem;
   background-repeat: no-repeat;
   background-size: cover;
