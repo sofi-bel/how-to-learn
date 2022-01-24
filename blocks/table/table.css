@@ -10,6 +10,6 @@
 
 @media screen and (min-width: 992px) {
   .table {
-    max-width: 90%;
+    min-width: 100%;
   }
 }

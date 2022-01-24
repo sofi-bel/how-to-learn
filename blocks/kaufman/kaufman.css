@@ -3,20 +3,21 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
   overflow: hidden;
 }
 
-.kaufman::after {
-  content: "";
-  width: 54.8125rem;
-  height: 54.8125rem;
-  position: absolute;
-  background-image: url(../../images/triangle.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  right: -13.125rem;
-  top: 0;
-  z-index: -1;
-  animation: rotate linear infinite 20s;
+@media screen and (min-width: 1280px) {
+  .kaufman::after {
+    content: "";
+    width: 54.8125rem;
+    height: 54.8125rem;
+    position: absolute;
+    background-image: url(../../images/triangle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: -13.125rem;
+    top: 0;
+    z-index: -1;
+    animation: rotate linear infinite 20s;
+  }
 }

@@ -1,4 +1,12 @@
 .page__kaufman {
-  padding: 5.625rem 0;
+  margin-top: 0;
+  padding: 3rem 1rem;
   z-index: 1;
+}
+
+@media screen and (min-width: 1280px) {
+  .page__kaufman {
+    padding: 6rem 10%;
+    max-width: 100%;
+  }
 }
