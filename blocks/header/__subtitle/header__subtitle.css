@@ -1,17 +1,10 @@
 .header__subtitle {
-  position: relative;
-  z-index: 2;
-  margin: 0;
   max-width: 24.25rem;
-  font-size: 1rem;
 }
 
 @media screen and (min-width: 992px) {
   .header__subtitle {
     font-size: 1.125rem;
     line-height: 1.39;
-    position: absolute;
-    left: 3rem;
-    bottom: 1.875rem;
   }
 }
