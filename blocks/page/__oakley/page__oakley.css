@@ -1,11 +1,9 @@
 .page__oakley {
-  padding: 6rem 1rem 3rem;
-  margin: 0 auto;
+  padding-top: 3rem;
 }
 
 @media screen and (min-width: 1280px) {
   .page__oakley {
-    padding: 12rem 10% 6rem;
-    max-width: 100%;
+    padding-top: 6rem;
   }
 }

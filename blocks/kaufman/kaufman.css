@@ -1,9 +1,6 @@
 .kaufman {
   background-color: #1f1f1f;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
 }
 
 @media screen and (min-width: 1280px) {
@@ -15,9 +12,8 @@
     background-image: url(../../images/triangle.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    right: -13.125rem;
+    right: -10%;
     top: 0;
-    z-index: -1;
     animation: rotate linear infinite 20s;
   }
 }

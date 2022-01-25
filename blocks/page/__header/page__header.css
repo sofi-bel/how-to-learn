@@ -1,9 +1,0 @@
-.page__header {
-  margin: 0 auto 3rem;
-}
-
-@media screen and (min-width: 992px) {
-  .page__header {
-    margin: 0 auto 6rem;
-  }
-}

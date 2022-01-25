@@ -1,0 +1,17 @@
+.page__container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .page__container {
+    padding: 3rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page__container {
+    padding: 6rem;
+  }
+}

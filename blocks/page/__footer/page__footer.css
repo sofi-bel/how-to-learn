@@ -1,9 +1,0 @@
-.page__footer {
-  margin: 3rem auto 0;
-}
-
-@media screen and (min-width: 1280px) {
-  .page__footer {
-    margin: 6rem auto 0;
-  }
-}
