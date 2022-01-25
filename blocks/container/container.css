@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    padding: 3rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    padding: 6rem;
+  }
+}

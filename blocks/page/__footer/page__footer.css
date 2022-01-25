@@ -1,19 +1,9 @@
 .page__footer {
-  display: flex;
-  padding: 3rem 1rem;
   margin: 3rem auto 0;
-}
-
-@media screen and (min-width: 992px) {
-  .page__footer {
-    padding: 3rem;
-  }
 }
 
 @media screen and (min-width: 1280px) {
   .page__footer {
-    padding: 6rem 5%;
     margin: 6rem auto 0;
-    max-width: 100%;
   }
 }

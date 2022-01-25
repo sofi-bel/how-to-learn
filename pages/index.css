@@ -1,11 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../blocks/container/container.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/text/text.css);
 @import url(../blocks/image/image.css);
 @import url(../blocks/rotation/rotation.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/_centered/page_centered.css);
 @import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/page/__section/page__section.css);
 @import url(../blocks/page/__video/page__video.css);

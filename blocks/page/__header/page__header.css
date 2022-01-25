@@ -1,14 +1,9 @@
 .page__header {
-  min-height: 100vh;
-  position: relative;
-  z-index: 1;
-  padding: 0 1rem;
+  margin: 0 auto 3rem;
 }
 
 @media screen and (min-width: 992px) {
   .page__header {
-    min-height: 37.5rem;
-    max-height: 47.25rem;
-    padding: 0;
+    margin: 0 auto 6rem;
   }
 }
