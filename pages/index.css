@@ -6,16 +6,11 @@
 @import url(../blocks/image/image.css);
 @import url(../blocks/rotation/rotation.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__container/page__container.css);
 @import url(../blocks/page/__section/page__section.css);
 @import url(../blocks/page/__video/page__video.css);
 @import url(../blocks/page/__oakley/page__oakley.css);
 @import url(../blocks/page/__feynman/page__feynman.css);
-@import url(../blocks/page/__digits/page__digits.css);
-@import url(../blocks/page/__khan/page__khan.css);
-@import url(../blocks/page/__kaufman/page__kaufman.css);
-@import url(../blocks/page/__resources/page__resources.css);
-@import url(../blocks/page/__footer/page__footer.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
@@ -27,7 +22,6 @@
 @import url(../blocks/article/__title/article__title.css);
 @import url(../blocks/article/__paragraph/article__paragraph.css);
 @import url(../blocks/article/__span-accent/article__span-accent.css);
-@import url(../blocks/techniques/techniques.css);
 @import url(../blocks/techniques/__cards/techniques__cards.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
@@ -53,6 +47,7 @@
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/khan/khan.css);
+@import url(../blocks/khan/__container/khan__container.css);
 @import url(../blocks/khan/__title/khan__title.css);
 @import url(../blocks/khan/__quote/khan__quote.css);
 @import url(../blocks/khan/__book-container/khan__book-container.css);

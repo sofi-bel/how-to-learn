@@ -8,12 +8,13 @@
 
 @media screen and (min-width: 768px) {
   .feynman {
-    background-size: 50%;
+    background-size: 50% auto;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .feynman {
-    background-position: left bottom;
+    background-size: auto 32rem;
+    background-position: left 25% bottom;
   }
 }
