@@ -1,7 +1,6 @@
 .article {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 3rem;
 }
 
@@ -9,6 +8,5 @@
   .article {
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
   }
 }
