@@ -1,11 +1,11 @@
-.header__link {
+.link {
   color: #006cd6;
   text-decoration: none;
   transition: opacity 1s ease-out;
 }
 
 @media screen and (min-width: 992px) {
-  .header__link:hover {
+  .link:hover {
     opacity: 0.3;
   }
 }
