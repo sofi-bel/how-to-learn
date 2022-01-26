@@ -2,14 +2,12 @@
   display: grid;
   grid-gap: 3rem;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  padding-left: 0;
-  margin: 0 auto;
-  list-style: none;
   max-width: 100%;
 }
 
 @media screen and (min-width: 992px) {
   .table {
     min-width: 100%;
+    grid-gap: 6rem;
   }
 }

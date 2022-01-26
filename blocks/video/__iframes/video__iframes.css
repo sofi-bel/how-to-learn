@@ -1,9 +1,6 @@
 .video__iframes {
   display: grid;
   gap: 1.25rem;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
 }
 
 @media screen and (min-width: 992px) {
