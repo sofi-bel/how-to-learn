@@ -1,5 +1,7 @@
 .footer__column_content_copyright {
   min-width: 100%;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
