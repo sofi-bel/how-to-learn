@@ -2,3 +2,10 @@
   margin: 0 auto;
   padding: 0;
 }
+
+@media screen and (min-width: 992px) {
+  .techniques__cards {
+    max-width: 73%;
+    min-width: 73%;
+  }
+}
