@@ -4,6 +4,7 @@
 @import url(../blocks/title/title.css);
 @import url(../blocks/text/text.css);
 @import url(../blocks/link/link.css);
+@import url(../blocks/link/_theme/link_theme_dark.css);
 @import url(../blocks/list/list.css);
 @import url(../blocks/image/image.css);
 @import url(../blocks/rotation/rotation.css);
@@ -58,10 +59,7 @@
 @import url(../blocks/resources/__logo/resources__logo.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
-@import url(../blocks/footer/__author-link/footer__author-link.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
-@import url(../blocks/footer/__list/footer__list.css);
-@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);

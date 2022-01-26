@@ -1,14 +1,13 @@
 .footer__columns {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 3rem;
-  min-width: 100%;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 575px) {
   .footer__columns {
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 }
