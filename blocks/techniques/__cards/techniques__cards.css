@@ -1,6 +1,5 @@
 .techniques__cards {
-  margin: 0 auto;
-  padding: 0;
+  align-self: center;
 }
 
 @media screen and (min-width: 992px) {
