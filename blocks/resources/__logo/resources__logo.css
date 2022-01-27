@@ -2,8 +2,6 @@
   display: flex;
   padding: 0;
   margin: 0 auto;
-  max-width: 16.875rem;
-  height: auto;
   object-fit: contain;
   transition: opacity 0.5s ease-out, transform 0.5s ease-in-out;
 }
@@ -11,7 +9,6 @@
 @media screen and (min-width: 992px) {
   .resources__logo:hover {
     opacity: 0.3;
-    -webkit-transform: scale(1.2);
     transform: scale(1.2);
   }
 }

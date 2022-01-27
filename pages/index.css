@@ -10,6 +10,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__container/page__container.css);
 @import url(../blocks/page/__section/page__section.css);
+@import url(../blocks/page/__section-subtitle/page__section-subtitle.css);
 @import url(../blocks/page/__video/page__video.css);
 @import url(../blocks/page/__oakley/page__oakley.css);
 @import url(../blocks/page/__feynman/page__feynman.css);
@@ -39,12 +40,11 @@
 @import url(../blocks/feynman/__title/feynman__title.css);
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
+@import url(../blocks/digits/__container/digits__container.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/_theme/table_theme_dark.css);
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
-@import url(../blocks/table/__heading/table__heading.css);
-@import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/khan/__container/khan__container.css);
 @import url(../blocks/khan/__title/khan__title.css);
