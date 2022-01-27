@@ -1,4 +1,6 @@
 .khan__book-pic {
   aspect-ratio: 7/6;
+  min-width: 100%;
+  object-fit: cover;
   object-position: top left;
 }
