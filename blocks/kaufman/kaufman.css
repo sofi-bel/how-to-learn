@@ -6,8 +6,8 @@
 @media screen and (min-width: 1280px) {
   .kaufman::after {
     content: "";
-    width: 55rem;
-    height: 55rem;
+    min-width: 55rem;
+    min-height: 55rem;
     position: absolute;
     background-image: url(../../images/triangle.svg);
     background-repeat: no-repeat;
