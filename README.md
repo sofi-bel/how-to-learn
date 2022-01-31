@@ -26,6 +26,30 @@ A landing page about educational techniques and statistics in teaching.
 * Web accessibility
 * Relative units
 * Semantic layout
+* Webpack
+
+## Installation
+1. Clone repository
+```
+git clone https://github.com/a-meti/how-to-learn.git
+```
+2. Install dependencies using [npm](https://www.npmjs.com/) (I use [Node.js](https://nodejs.org) v16.13.2)
+```
+npm install
+```
+## Run
+### Development
+```
+npm run dev
+```
+### Development with Hot Module Replacement
+```
+npm run start
+```
+### Production
+```
+npm run build
+```
 
 ## Demo
 

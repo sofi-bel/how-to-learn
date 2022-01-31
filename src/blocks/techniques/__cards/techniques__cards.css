@@ -1,0 +1,10 @@
+.techniques__cards {
+  align-self: center;
+}
+
+@media screen and (min-width: 992px) {
+  .techniques__cards {
+    min-width: 73%;
+    max-width: 73%;
+  }
+}

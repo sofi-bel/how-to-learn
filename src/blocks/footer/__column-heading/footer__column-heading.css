@@ -1,0 +1,10 @@
+.footer__column-heading {
+  margin-bottom: 1rem;
+  font-size: 1.953rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__column-heading {
+    margin-bottom: 3rem;
+  }
+}

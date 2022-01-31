@@ -1,0 +1,12 @@
+.footer__columns {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+@media screen and (min-width: 575px) {
+  .footer__columns {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+}
