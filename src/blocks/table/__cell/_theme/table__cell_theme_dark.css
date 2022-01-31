@@ -1,0 +1,10 @@
+.table__cell_theme_dark {
+  color: #fff;
+  counter-increment: listNumber;
+}
+
+.table__cell_theme_dark::before {
+  content: counter(listNumber);
+  font-weight: 700;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,20 @@
+.feynman {
+  background-color: #f2f2f2;
+  background-image: url("../../images/feinman.webp");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 15rem;
+}
+
+@media screen and (min-width: 768px) {
+  .feynman {
+    background-size: 50% auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .feynman {
+    background-position: left 25% bottom;
+    background-size: auto 32rem;
+  }
+}
