@@ -82,6 +82,10 @@ module.exports = {
         type: "asset/resource",
       },
       {
+        test: /\.(webmanifest|ico|xml)$/i,
+        type: "asset/resource",
+      },
+      {
         test: /\.pug$/,
         loader: "pug-loader",
         exclude: /(node_modules|bower_components)/,
