@@ -1,0 +1,19 @@
+.video {
+  &__iframes {
+    display: grid;
+    gap: 1.25rem;
+
+    @media screen and (min-width: 992px) {
+      justify-content: center;
+      grid-template-columns: repeat(2, 50%);
+    }
+
+    @media screen and (min-width: 1280px) {
+      grid-template-columns: repeat(2, 35rem);
+    }
+  }
+
+  &__item {
+    background-color: black;
+  }
+}

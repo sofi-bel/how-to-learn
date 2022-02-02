@@ -1,0 +1,52 @@
+.page {
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+
+  &__container {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+
+    @media screen and (min-width: 992px) {
+      padding: 3rem;
+    }
+
+    @media screen and (min-width: 1280px) {
+      padding: 6rem;
+    }
+  }
+
+  &__section {
+    overflow: hidden;
+  }
+
+  &__section-subtitle {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  &__video {
+    margin-bottom: -6rem;
+
+    @media screen and (min-width: 1280px) {
+      margin-bottom: -12rem;
+    }
+  }
+
+  &__oakley {
+    padding-top: 3rem;
+
+    @media screen and (min-width: 1280px) {
+      padding-top: 6rem;
+    }
+  }
+
+  &__feynman {
+    padding-bottom: 15rem;
+
+    @media screen and (min-width: 992px) {
+      padding-bottom: 10rem;
+    }
+  }
+}

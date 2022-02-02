@@ -1,9 +1,0 @@
-.page__feynman {
-  padding-bottom: 15rem;
-}
-
-@media screen and (min-width: 992px) {
-  .page__feynman {
-    padding-bottom: 10rem;
-  }
-}

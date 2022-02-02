@@ -8,8 +8,8 @@
     "start": "cross-env NODE_ENV=development webpack serve --mode development",
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "build": "cross-env NODE_ENV=production webpack --mode production",
-    "stylelint": "stylelint \"**/*.{css,sss}\" --fix",
-    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\" --fix src/",
+    "stylelint": "stylelint \"**/*.{css,sss}\" src/blocks/",
+    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\" src/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },

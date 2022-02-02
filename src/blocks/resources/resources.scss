@@ -1,0 +1,30 @@
+.resources {
+  &__section-subtitle {
+    max-width: 100%;
+  }
+
+  &__logo-zone {
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+
+    @media screen and (min-width: 1280px) {
+      grid-gap: 6rem;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-in-out;
+    object-fit: contain;
+
+    &:hover {
+      @media screen and (min-width: 992px) {
+        transform: scale(1.2);
+        opacity: 0.3;
+      }
+    }
+  }
+}
