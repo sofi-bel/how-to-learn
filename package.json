@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "A landing page about educational techniques and statistics in teaching.",
   "private": "true",
+  "homepage": "https://a-meti.github.io/how-to-learn/",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve --mode development",
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "stylelint": "stylelint \"**/*.{css,sss}\" --fix",
-    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\" --fix src/"
+    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\" --fix src/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -35,7 +38,6 @@
   "bugs": {
     "url": "https://github.com/a-meti/how-to-learn/issues"
   },
-  "homepage": "https://github.com/a-meti/how-to-learn#readme",
   "devDependencies": {
     "@babel/core": "^7.16.12",
     "@babel/preset-env": "^7.16.11",
