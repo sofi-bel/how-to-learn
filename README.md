@@ -51,7 +51,7 @@ npm run start
 npm run build
 ```
 
-### Demo (temporarily not working)
+### Demo
 
 [Look at the result.](https://a-meti.github.io/how-to-learn/index.html)
 
