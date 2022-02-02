@@ -5,15 +5,6 @@
   background-position: right bottom;
   background-size: auto 15rem;
 
-  @media screen and (min-width: 768px) {
-    background-size: 50% auto;
-  }
-
-  @media screen and (min-width: 1280px) {
-    background-position: left 25% bottom;
-    background-size: auto 32rem;
-  }
-
   &__title {
     font-size: 2.441rem;
 
@@ -32,6 +23,15 @@
     @media screen and (min-width: 1280px) {
       text-align: right;
     }
+  }
+
+  @media screen and (min-width: 768px) {
+    background-size: 50% auto;
+  }
+
+  @media screen and (min-width: 1280px) {
+    background-position: left 25% bottom;
+    background-size: auto 32rem;
   }
 }
 
