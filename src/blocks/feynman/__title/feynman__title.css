@@ -1,8 +1,0 @@
-.feynman__title {
-  font-size: 2.441rem;
-}
-@media screen and (min-width: 1280px) {
-  .feynman__title {
-    text-align: center;
-  }
-}

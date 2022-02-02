@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  min-height: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &_place_header {
+    background-image: url("../images/logo.svg");
+  }
+
+  &_place_footer {
+    margin-bottom: 1rem;
+    background-image: url("../images/logo_white.svg");
+  }
+}

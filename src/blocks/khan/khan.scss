@@ -1,0 +1,40 @@
+.khan {
+  background-color: #f2f2f2;
+
+  &__container {
+    @media screen and (min-width: 992px) {
+      padding-bottom: 0;
+    }
+  }
+
+  &__title {
+    font-size: 2.441rem;
+  }
+
+  &__quote {
+    @media screen and (min-width: 768px) {
+      max-width: 50%;
+    }
+  }
+
+  &__book-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    @media screen and (min-width: 992px) {
+      flex-direction: row;
+    }
+  }
+
+  &__book-pic {
+    max-width: 100%;
+    height: auto;
+    object-position: top left;
+  }
+
+  &__book-pic-wrap {
+    display: flex;
+    max-height: 38rem;
+  }
+}

@@ -1,0 +1,15 @@
+.link {
+  color: #006cd6;
+  text-decoration: none;
+  transition: opacity 1s ease-out;
+
+  &:hover {
+    @media screen and (min-width: 992px) {
+      opacity: 0.3;
+    }
+  }
+
+  &_theme_dark {
+    color: #fff;
+  }
+}
