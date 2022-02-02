@@ -53,7 +53,7 @@ npm run build
 
 ### Demo
 
-[Look at the result.](https://a-meti.github.io/how-to-learn/index.html)
+[Look at the result.](https://a-meti.github.io/how-to-learn/)
 
 
 
