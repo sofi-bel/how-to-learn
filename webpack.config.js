@@ -5,7 +5,6 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const ESLintPlugin = require("eslint-webpack-plugin");
 const StyleLintPlugin = require("stylelint-webpack-plugin");
-const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
 
 const isDev = process.env.NODE_ENV === "development";
 
@@ -51,9 +50,6 @@ module.exports = {
       template: "./index.html",
       filename: "index.html",
     }),
-    new FaviconsWebpackPlugin(
-      path.resolve(__dirname, "src/images/favicon.png")
-    ),
     new ESLintPlugin({
       fix: true,
     }),
