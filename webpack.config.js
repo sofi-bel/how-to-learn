@@ -46,8 +46,8 @@ module.exports = {
       chunkFilename: "[id].[contenthash].css",
     }),
     new HtmlWebpackPlugin({
+      template: "./index.pug",
       title: "How to learn",
-      template: "./index.html",
       filename: "index.html",
     }),
     new ESLintPlugin({
@@ -60,6 +60,10 @@ module.exports = {
 
   module: {
     rules: [
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
       {
         test: /\.s[ac]ss$/i,
         use: [
@@ -76,6 +80,11 @@ module.exports = {
       {
         test: /\.(png|svg|jpe?g|gif|webp)$/i,
         type: "asset/resource",
+      },
+      {
+        test: /\.pug$/,
+        loader: "pug-loader",
+        exclude: /(node_modules|bower_components)/,
       },
       {
         test: /\.m?js$/,

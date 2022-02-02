@@ -15,6 +15,7 @@ A landing page about educational techniques and statistics in teaching.
 
 ## Stack
 * HTML5 & CSS3
+* Pug
 * Flexbox
 * CSS grid
 * BEM
