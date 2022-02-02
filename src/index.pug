@@ -69,12 +69,17 @@ html(lang="ru")
 
           ul.cards.techniques__cards.list
             li.cards__item
-              img.cards__image(
-                src=require("./images/cards-attention.png"),
-                width="160",
-                height="160",
-                alt="Книга в руках"
-              )
+              picture.cards__image-wrap
+                source(
+                  srcset=require("./images/cards-attention.webp"),
+                  type="image/webp"
+                )
+                img.cards__image(
+                  src=require("./images/cards-attention.png"),
+                  width="160",
+                  height="160",
+                  alt="Книга в руках"
+                )
               h3.cards__title.title.
                 Два вида внимания
 
@@ -83,12 +88,17 @@ html(lang="ru")
                 и рассеянное мышление.
 
             li.cards__item
-              img.cards__image(
-                src=require("./images/cards-recall.png"),
-                width="160",
-                height="160",
-                alt="Статуя"
-              )
+              picture.cards__image-wrap
+                source(
+                  srcset=require("./images/cards-recall.webp"),
+                  type="image/webp"
+                )
+                img.cards__image(
+                  src=require("./images/cards-recall.png"),
+                  width="160",
+                  height="160",
+                  alt="Статуя"
+                )
               h3.cards__title.title.
                 Recall
 
@@ -97,12 +107,17 @@ html(lang="ru")
                 порции памяти.
 
             li.cards__item
-              img.cards__image(
-                src=require("./images/cards-interliving.png"),
-                width="160",
-                height="160",
-                alt="Зал"
-              )
+              picture.cards__image-wrap
+                source(
+                  srcset=require("./images/cards-interliving.webp"),
+                  type="image/webp"
+                )
+                img.cards__image(
+                  src=require("./images/cards-interliving.png"),
+                  width="160",
+                  height="160",
+                  alt="Зал"
+                )
               h3.cards__title.title.
                 Интерливинг
 
@@ -111,12 +126,17 @@ html(lang="ru")
                 друга.
 
             li.cards__item
-              img.cards__image(
-                src=require("./images/cards-question.png"),
-                width="160",
-                height="160",
-                alt="Белая комната"
-              )
+              picture.cards__image-wrap
+                source(
+                  srcset=require("./images/cards-question.webp"),
+                  type="image/webp"
+                )
+                img.cards__image(
+                  src=require("./images/cards-question.png"),
+                  width="160",
+                  height="160",
+                  alt="Белая комната"
+                )
               h3.cards__title.title.
                 Вопросы
 
@@ -125,12 +145,17 @@ html(lang="ru")
                 действительно волнует.
 
             li.cards__item
-              img.cards__image(
-                src=require("./images/cards-competence.png"),
-                width="160",
-                height="160",
-                alt="Стопка книг"
-              )
+              picture.cards__image-wrap
+                source(
+                  srcset=require("./images/cards-competence.webp"),
+                  type="image/webp"
+                )
+                img.cards__image(
+                  src=require("./images/cards-competence.png"),
+                  width="160",
+                  height="160",
+                  alt="Стопка книг"
+                )
               h3.cards__title.title.
                 Иллюзия компетентности
 
@@ -291,12 +316,17 @@ html(lang="ru")
               Кинорежиссер, продюсер
 
           .khan__book-container
-            img.khan__book-pic(
-              src=require("./images/khan-book.jpg"),
-              width="700",
-              height="600",
-              alt="Обложка книги Салман Хан"
-            )
+            picture.khan__book-pic-wrap
+              source(
+                srcset=require("./images/khan-book.webp"),
+                type="image/webp"
+              )
+              img.khan__book-pic(
+                src=require("./images/khan-book.jpg"),
+                width="700",
+                height="600",
+                alt="Обложка книги Салман Хан"
+              )
             a.khan__buy-link.link(
               target="_blank",
               rel="noopener noreferrer",
