@@ -49,6 +49,11 @@
     margin-bottom: 1rem;
   }
 
+  &__column-link {
+    display: flex;
+    align-items: center;
+  }
+
   &__social-icon {
     margin-right: 0.5rem;
   }
