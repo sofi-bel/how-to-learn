@@ -2,9 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
-const TerserPlugin = require("terser-webpack-plugin");
 const ESLintPlugin = require("eslint-webpack-plugin");
-const StyleLintPlugin = require("stylelint-webpack-plugin");
 
 const isDev = process.env.NODE_ENV === "development";
 
@@ -30,7 +28,7 @@ module.exports = {
         },
       },
     },
-    minimizer: [new TerserPlugin(), new CssMinimizerPlugin()],
+    minimizer: [new CssMinimizerPlugin()],
   },
   devtool: isDev ? "source-map" : false,
   devServer: {
@@ -53,9 +51,6 @@ module.exports = {
     new ESLintPlugin({
       fix: true,
     }),
-    new StyleLintPlugin({
-      fix: true,
-    }),
   ],
 
   module: {
@@ -69,7 +64,14 @@ module.exports = {
         use: [
           isDev ? "style-loader" : MiniCssExtractPlugin.loader,
           "css-loader",
-          "postcss-loader",
+          {
+            loader: "postcss-loader",
+            options: {
+              postcssOptions: {
+                plugins: [["postcss-preset-env"]],
+              },
+            },
+          },
           "sass-loader",
         ],
       },
@@ -93,7 +95,7 @@ module.exports = {
       },
       {
         test: /\.m?js$/,
-        exclude: /node_modules/,
+        exclude: /(node_modules|bower_components)/,
         use: {
           loader: "babel-loader",
           options: {
