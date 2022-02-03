@@ -458,98 +458,97 @@ html(lang="ru")
                 height="38",
                 alt="Логотип портала Полка"
               )
+    footer.footer
+      .container.page__container
+        .footer__columns
+          .footer__column.footer__column_content_copyright
+            a.logo.logo_place_footer(
+              target="_blank",
+              rel="noopener noreferrer",
+              aria-label="Логотип",
+              href="https://practicum.yandex.ru/"
+            ).
 
-footer.footer
-  .container.page__container
-    .footer__columns
-      .footer__column.footer__column_content_copyright
-        a.logo.logo_place_footer(
-          target="_blank",
-          rel="noopener noreferrer",
-          aria-label="Логотип",
-          href="https://practicum.yandex.ru/"
-        ).
-
-        p.footer__author.text
-          | &copy; 2021
-          a.footer__author-link.link.link_theme_dark(
-            href="https://www.linkedin.com/in/a-meti/",
-            target="_blank",
-            rel="noopener noreferrer"
-          ).
-            Анастасия Метикова
-      .footer__column.footer__column_content_info
-        h3.footer__column-heading.title.
-          О Практикуме
-
-        nav.footer__column-links
-          ul.footer__list.list
-            li.footer__list-item
-              a.footer__column-link.link.link_theme_dark(
+            p.footer__author.text
+              | &copy; 2021
+              a.footer__author-link.link.link_theme_dark(
+                href="https://www.linkedin.com/in/a-meti/",
                 target="_blank",
-                rel="noopener noreferrer",
-                href="https://practicum.yandex.ru/"
+                rel="noopener noreferrer"
               ).
-                Главная
+                Анастасия Метикова
+          .footer__column.footer__column_content_info
+            h3.footer__column-heading.title.
+              О Практикуме
 
-            li.footer__list-item
-              a.footer__column-link.link.link_theme_dark(
-                target="_blank",
-                rel="noopener noreferrer",
-                href="https://yandex.ru/support/praktikum/feedback.html"
-              ).
-                Справка
+            nav.footer__column-links
+              ul.footer__list.list
+                li.footer__list-item
+                  a.footer__column-link.link.link_theme_dark(
+                    target="_blank",
+                    rel="noopener noreferrer",
+                    href="https://practicum.yandex.ru/"
+                  ).
+                    Главная
 
-            li.footer__list-item
-              a.footer__column-link.link.link_theme_dark(
-                target="_blank",
-                rel="noopener noreferrer",
-                href="https://practicum.yandex.ru/reviews/"
-              ).
-                Отзывы
+                li.footer__list-item
+                  a.footer__column-link.link.link_theme_dark(
+                    target="_blank",
+                    rel="noopener noreferrer",
+                    href="https://yandex.ru/support/praktikum/feedback.html"
+                  ).
+                    Справка
 
-      .footer__column.footer__column_content_social
-        h3.footer__column-heading.title.
-          Соцсети
-        nav.footer__column-links
-          ul.footer__list.list
-            li.footer__list-item
-              a.footer__column-link.link.link_theme_dark(
-                target="_blank",
-                rel="noopener noreferrer",
-                href="https://www.facebook.com/yandex.practicum"
-              )
-                img.footer__social-icon(
-                  src=require("./images/facebook_white.svg"),
-                  width="16",
-                  height="15",
-                  alt="Иконка Facebook"
-                )
-                | Facebook
+                li.footer__list-item
+                  a.footer__column-link.link.link_theme_dark(
+                    target="_blank",
+                    rel="noopener noreferrer",
+                    href="https://practicum.yandex.ru/reviews/"
+                  ).
+                    Отзывы
 
-            li.footer__list-item
-              a.footer__column-link.link.link_theme_dark(
-                target="_blank",
-                rel="noopener noreferrer",
-                href="https://vk.com/yandex.practicum"
-              )
-                img.footer__social-icon(
-                  src=require("./images/vk_white.svg"),
-                  width="16",
-                  height="15",
-                  alt="Иконка Вконтакте"
-                )
-                | ВКонтакте
-            li.footer__list-item
-              a.footer__column-link.link.link_theme_dark(
-                target="_blank",
-                rel="noopener noreferrer",
-                href="https://www.instagram.com/yndx.practicum/"
-              )
-                img.footer__social-icon(
-                  src=require("./images/instagram_white.svg"),
-                  width="16",
-                  height="14",
-                  alt="Иконка Instagram"
-                )
-                | Instagram
+          .footer__column.footer__column_content_social
+            h3.footer__column-heading.title.
+              Соцсети
+            nav.footer__column-links
+              ul.footer__list.list
+                li.footer__list-item
+                  a.footer__column-link.link.link_theme_dark(
+                    target="_blank",
+                    rel="noopener noreferrer",
+                    href="https://www.facebook.com/yandex.practicum"
+                  )
+                    img.footer__social-icon(
+                      src=require("./images/facebook_white.svg"),
+                      width="16",
+                      height="15",
+                      alt="Иконка Facebook"
+                    )
+                    | Facebook
+
+                li.footer__list-item
+                  a.footer__column-link.link.link_theme_dark(
+                    target="_blank",
+                    rel="noopener noreferrer",
+                    href="https://vk.com/yandex.practicum"
+                  )
+                    img.footer__social-icon(
+                      src=require("./images/vk_white.svg"),
+                      width="16",
+                      height="15",
+                      alt="Иконка Вконтакте"
+                    )
+                    | ВКонтакте
+                li.footer__list-item
+                  a.footer__column-link.link.link_theme_dark(
+                    target="_blank",
+                    rel="noopener noreferrer",
+                    href="https://www.instagram.com/yndx.practicum/"
+                  )
+                    img.footer__social-icon(
+                      src=require("./images/instagram_white.svg"),
+                      width="16",
+                      height="14",
+                      alt="Иконка Instagram"
+                    )
+                    | Instagram
