@@ -20,7 +20,6 @@ A landing page about educational techniques and statistics in teaching.
 * Flexbox
 * CSS grid
 * BEM
-* BEM Nested
 * Adaptive web design
 * Responsive web design
 * Mobile first
