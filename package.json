@@ -43,7 +43,6 @@
     "@babel/preset-env": "^7.16.11",
     "@prettier/plugin-pug": "^1.19.2",
     "babel-loader": "^8.2.3",
-    "copy-webpack-plugin": "^10.2.4",
     "cross-env": "^7.0.3",
     "css-loader": "^6.6.0",
     "css-minimizer-webpack-plugin": "^3.4.1",

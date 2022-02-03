@@ -1,6 +1,5 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const CopyPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
@@ -51,9 +50,6 @@ module.exports = {
       title: "How to learn",
       filename: "index.html",
     }),
-    new CopyPlugin({
-      patterns: [{ from: "favicon/browserconfig", to: "assets" }],
-    }),
     new ESLintPlugin({
       fix: true,
     }),
@@ -82,11 +78,7 @@ module.exports = {
         type: "asset/resource",
       },
       {
-        test: /\.(png|svg|jpe?g|gif|webp)$/i,
-        type: "asset/resource",
-      },
-      {
-        test: /\.(|ico|xml)$/i,
+        test: /\.(png|svg|jpe?g|gif|webp|ico)$/i,
         type: "asset/resource",
       },
       {
