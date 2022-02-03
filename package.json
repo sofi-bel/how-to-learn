@@ -60,7 +60,7 @@
     "postcss": "^8.4.6",
     "postcss-loader": "^6.2.1",
     "prettier": "^2.5.1",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "pug-loader": "^2.4.0",
     "sass": "^1.49.7",
     "sass-loader": "^12.4.0",
