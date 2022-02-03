@@ -1,3 +1,13 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(-15deg);
+  }
+
+  100% {
+    transform: rotate(345deg);
+  }
+}
+
 .kaufman {
   position: relative;
   background-color: #1f1f1f;
@@ -11,8 +21,8 @@
       min-width: 55rem;
       min-height: 55rem;
       background-image: url("../images/triangle.svg");
-      background-repeat: no-repeat;
       background-size: cover;
+      background-repeat: no-repeat;
       animation: rotate linear infinite 20s;
     }
   }
