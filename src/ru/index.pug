@@ -1,0 +1,538 @@
+doctype html
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1")
+    meta(name="description", content="Научиться учиться")
+    meta(
+      name="keywords",
+      content="Проект Научиться учиться Яндекc.Практикум, Проект Научиться учиться Яндекc Практикум, Проект Научиться учиться Яндекc, Проект Яндекc.Практикум, Проект Яндекc Практикум, Проект Яндекc, Проекты Яндекc.Практикум, Проекты Яндекc Практикум,  Проекты Яндекc, Яндекс веб-разработчик плюс, Яндекс.Практикум веб-разработчик плюс, Яндекс Практикум веб-разработчик плюс, Anastasiia Metikova, Анастасия Метикова, Яндекc.Практикум, Яндекc Практикум, Проект веб-разработчик плюс Яндекc.Практикум, Проект веб-разработчик плюс Яндекc Практикум"
+    )
+    meta(name="author", content="Anastasiia Metikova")
+    link(
+      rel="apple-touch-icon",
+      href=require("../favicon/apple-touch-icon.png")
+    )
+    link(rel="manifest", href=require("../favicon/site.webmanifest"))
+    link(
+      rel="icon",
+      href=require("../favicon/favicon.svg"),
+      type="image/svg+xml"
+    )
+    link(rel="icon", href=require("../favicon/favicon.ico"), sizes="any")
+    meta(
+      name="google-site-verification",
+      content="Ea9NWQU5CDgPbBBq3ivltxc9kZ43a4avIPfmgYW5bZM"
+    )
+    title= htmlWebpackPlugin.options.title
+  body.page
+    header.header.page__header
+      .container.page__container
+        a.logo.logo_place_header(
+          target="_blank",
+          rel="noopener noreferrer",
+          aria-label="Логотип",
+          href="https://practicum.yandex.ru/"
+        )
+        ul.header__lang-list.list
+          li.header__lang-item
+            a.header__lang-link.header__lang-link_lang_ru.header__lang-link_active(
+              href="../"
+            )
+              | Ru
+          li.header__lang-item
+            a.header__lang-link.header__lang-link_lang_en(href="/")
+              | En
+        h1.header__title.title.lng-unit
+          | Научиться учиться
+        p.header__subtitle.text
+          | Какие современные и эффективные подходы к обучению
+          | вы можете использовать в своей жизни?
+          a.header__link.link(
+            target="_blank",
+            rel="noopener noreferrer",
+            href="https://vc.ru/education/147792-16-sovetov-kak-nauchitsya-uchitsya"
+          ).
+            Узнать →
+    main.content
+      section.description.page__description.section.page__section(
+        aria-label="Блок со статьей"
+      )
+        .container.page__container
+          article.article.description__article
+            h2.article__title.title.
+              Главные проблемы в обучении
+            .article__main-text
+              p.article__paragraph.text
+                | Ни в школе, ни в институте нас не учат тому,
+                | как правильно изучать материал. Мы готовимся к экзаменам
+                | и учим билеты. Мы тренируемся решать однообразные
+                | задачи, чтобы лучше сдать тест, но часто в итоге это
+                | не дает нам реального знания. Зубрежка быстро выветривается
+                | и не приносит пользы.
+              p.article__paragraph.text
+                span.article__span-accent Вывод:
+                | учиться тоже нужно уметь, но почему-то этому мало где учат.
+                | Что с этим делать?
+              p.article__paragraph.text
+                | Конкретные техники и упражнения помогают изменить подход
+                | к обучению, сделать его эффективным и захватывающим.
+                | Эти же техники применяются на примере обучения
+                | в Практикуме.
+      section.techniques.page__techniques.section.page__section
+        .container.page__container
+          h2.section-title.title.
+            Техники обучения
+
+          p.section-subtitle.page__section-subtitle.
+            Пять практик от Барбары Оакли
+
+          ul.cards.techniques__cards.list
+            li.cards__item
+              picture.cards__image-wrap
+                source(
+                  srcset=require("../images/cards-attention.webp"),
+                  type="image/webp"
+                )
+                img.cards__image(
+                  src=require("../images/cards-attention.png"),
+                  width="160",
+                  height="160",
+                  alt="Книга в руках"
+                )
+              h3.cards__title.title.
+                Два вида внимания
+
+              p.cards__description.text.
+                Глубокие знания возникают, если чередовать сфокусированное
+                и рассеянное мышление.
+
+            li.cards__item
+              picture.cards__image-wrap
+                source(
+                  srcset=require("../images/cards-recall.webp"),
+                  type="image/webp"
+                )
+                img.cards__image(
+                  src=require("../images/cards-recall.png"),
+                  width="160",
+                  height="160",
+                  alt="Статуя"
+                )
+              h3.cards__title.title.
+                Recall
+
+              p.cards__description.text.
+                Вспоминайте изученное — это позволит соединить разрозненные
+                порции памяти.
+
+            li.cards__item
+              picture.cards__image-wrap
+                source(
+                  srcset=require("../images/cards-interliving.webp"),
+                  type="image/webp"
+                )
+                img.cards__image(
+                  src=require("../images/cards-interliving.png"),
+                  width="160",
+                  height="160",
+                  alt="Зал"
+                )
+              h3.cards__title.title.
+                Интерливинг
+
+              p.cards__description.text.
+                Изучайте несколько навыков одновременно, они обогащают друг
+                друга.
+
+            li.cards__item
+              picture.cards__image-wrap
+                source(
+                  srcset=require("../images/cards-question.webp"),
+                  type="image/webp"
+                )
+                img.cards__image(
+                  src=require("../images/cards-question.png"),
+                  width="160",
+                  height="160",
+                  alt="Белая комната"
+                )
+              h3.cards__title.title.
+                Вопросы
+
+              p.cards__description.text.
+                Слушая преподавателя, придумывайте хороший вопрос, который вас
+                действительно волнует.
+
+            li.cards__item
+              picture.cards__image-wrap
+                source(
+                  srcset=require("../images/cards-competence.webp"),
+                  type="image/webp"
+                )
+                img.cards__image(
+                  src=require("../images/cards-competence.png"),
+                  width="160",
+                  height="160",
+                  alt="Стопка книг"
+                )
+              h3.cards__title.title.
+                Иллюзия компетентности
+
+              p.cards__description.text.
+                Повторите про себя, запишите, расскажите другу: вам только
+                кажется, что вы владеете новой темой.
+
+      section.video.page__video.section.page__section
+        .container.page__container
+          h2.section-title.title.
+            Видео нa TED
+
+          p.section-subtitle.page__section-subtitle.
+            Для тех, кто любит прокрастинировать
+
+          ul.video__iframes.list
+            li.video__item
+              lite-youtube.video__iframe(
+                videotitle="Inside the mind of a master procrastinator | Tim Urban",
+                videoid="arj7oStGLkU"
+              ).
+
+            li.video__item
+              lite-youtube.video__iframe(
+                videotitle="The first 20 hours -- how to learn anything | Josh Kaufman",
+                videoid="5MgBikgcWnY"
+              ).
+
+      section.oakley.page__oakley.section.page__section(
+        aria-label="Блок с историей Барбары Оакли"
+      )
+        .container.page__container
+          article.article.oakley__article
+            h2.article__title.title.
+              История Барбары Оакли
+
+            .article__main-text
+              p.article__paragraph.text.
+                С детства Барбаре не давалась математика. Она считала себя
+                законченным гуманитарием, причём далеко не самым умным.
+                В армии она изучала русский язык, чтобы получить надбавку,
+                да так успешно, что её выдвинули в командиры.
+                Но для продвижения по службе нужно было сдавать
+                математику. И тогда Барбара придумала свой подход
+                к точным наукам. Оказалось, если вам что-то «плохо даётся»,
+                ваши добытые трудом знания гораздо глубже, чем у тех,
+                кому всё ясно с первого взгляда.
+
+      section.feynman.page__feynman.section.page__section
+        .container.page__container
+          h2.feynman__title.title.
+            Метод Фейнмана
+
+          p.feynman__subtitle.text.
+            Выучить и не забыть.
+
+          a.feynman__link.link(
+            target="_blank",
+            rel="noopener noreferrer",
+            href="https://surl.li/aqwaf"
+          ).
+            Подробнее →
+
+      section.digits.page__digits.section.page__section
+        .container.page__container.digits__container
+          h2.section-title.title.
+            Цифры и факты
+
+          p.section-subtitle.page__section-subtitle.
+            Про учёбу и мозг
+
+          ul.table.digits__table.list
+            li.table__cell
+              h3.table__heading.title.
+                86 миллиардов
+
+              p.table__text.text.
+                Число нейронов в мозге человека
+
+            li.table__cell
+              h3.table__heading.title.
+                2.1 миллиарда
+
+              p.table__text.text.
+                Число нуждающихся в повышении квалификации
+
+              p.table__text.text.
+                Всемирный Банк, 2017
+
+            li.table__cell
+              h3.table__heading.title.
+                1000 терабайт
+
+              p.table__text.text.
+                Объём памяти человека
+
+            li.table__cell
+              h3.table__heading.title.
+                500 триллионов
+
+              p.table__text.text.
+                Число ответственных за обучение нервных синапсов
+                у взрослого человека
+
+            li.table__cell
+              h3.table__heading.title.
+                420 миллионов
+
+              p.table__text.text.
+                Число взрослых людей моложе 25 лет, не имеющих образования
+                для трудоустройства
+
+            li.table__cell
+              h3.table__heading.title.
+                17–20 лет
+
+              p.table__text.text.
+                Пик обучаемости
+
+            li.table__cell
+              h3.table__heading.title.
+                1885 год
+
+              p.table__text.text.
+                Открытие кривой забывания
+
+            li.table__cell
+              h3.table__heading.title.
+                1889 год
+
+              p.table__text.text.
+                Открытие условного рефлекса
+
+      section.khan.page__khan.section.page__section
+        .container.page__container.khan__container
+          p.khan__author.text.
+            Салман Хан
+
+          h2.khan__title.title.
+            Весь мир — школа
+
+          blockquote.khan__quote.text.
+            Страсть и новаторство Сала Хана меняют процесс обучения миллионов
+            студентов по всему миру. Книгу «Весь мир — школа» нужно
+            прочитать всем, кто занимается образованием — так учащиеся
+            повсюду смогут получить навыки и знания, которые приносят успех
+            в школе, карьере и жизни.
+
+          .khan__quote-author
+            p.text.
+              Джордж Лукас
+
+            p.text.
+              Кинорежиссер, продюсер
+
+          .khan__book-container
+            picture.khan__book-pic-wrap
+              source(
+                srcset=require("../images/khan-book.webp"),
+                type="image/webp"
+              )
+              img.khan__book-pic(
+                src=require("../images/khan-book.jpg"),
+                width="700",
+                height="600",
+                alt="Обложка книги Салман Хан"
+              )
+            a.khan__buy-link.link(
+              target="_blank",
+              rel="noopener noreferrer",
+              href="https://www.ozon.ru/product/ves-mir-shkola-preobrazovannoe-obrazovanie-162999126/?sh=6YE3R0K8"
+            ).
+              Купить книгу →
+
+      section.kaufman.page__kaufman.section.page__section
+        .container.page__container
+          h2.section-title.section-title_theme_dark.title.
+            Принципы обучения
+
+          p.section-subtitle.section-subtitle_theme_dark.page__section-subtitle.
+            от Джоша Кауфмана
+
+          ol.table.table_theme_dark.kaufman__table.list
+            li.table__cell.table__cell_theme_dark.
+              Выберите привлекательный проект.
+
+            li.table__cell.table__cell_theme_dark.
+              Сосредоточьтесь на каком-то одном навыке.
+
+            li.table__cell.table__cell_theme_dark.
+              Определите целевой уровень мастерства.
+
+            li.table__cell.table__cell_theme_dark.
+              Разбейте навык на элементы.
+
+            li.table__cell.table__cell_theme_dark.
+              Приготовьте всё необходимое для занятий.
+
+            li.table__cell.table__cell_theme_dark.
+              Устраните препятствия для занятий.
+
+            li.table__cell.table__cell_theme_dark.
+              Выделите специальное время для занятий.
+
+            li.table__cell.table__cell_theme_dark.
+              Создайте быстрые петли обратной связи.
+
+            li.table__cell.table__cell_theme_dark.
+              Занимайтесь по расписанию, короткими интенсивными интервалами.
+
+            li.table__cell.table__cell_theme_dark.
+              Уделяйте внимание количеству и скорости.
+
+      section.resources.page__resources.section.page__section
+        .container.page__container
+          h2.section-title.title.
+            Полезные ресурсы
+
+          p.section-subtitle.resources__section-subtitle.page__section-subtitle.
+            Больше материалов о техниках и лайфхаках обучения
+
+          .resources__logo-zone
+            a.resources__link(
+              target="_blank",
+              rel="noopener noreferrer",
+              href="https://arzamas.academy/"
+            )
+              img.resources__logo(
+                src=require("../images/logo/resources-arzamas.svg"),
+                width="177",
+                height="27",
+                alt="Логотип портала Арзамас"
+              )
+            a.resources__link(
+              target="_blank",
+              rel="noopener noreferrer",
+              href="https://nplus1.ru/"
+            )
+              img.resources__logo(
+                src=require("../images/logo/resources-n1.svg"),
+                width="89",
+                height="36",
+                alt="Логотип портала N+1"
+              )
+            a.resources__link(
+              target="_blank",
+              rel="noopener noreferrer",
+              href="https://strelka.com/ru"
+            )
+              img.resources__logo(
+                src=require("../images/logo/resources-strelka.svg"),
+                width="160",
+                height="32",
+                alt="Логотип портала Стрелка"
+              )
+            a.resources__link(
+              target="_blank",
+              rel="noopener noreferrer",
+              href="https://polka.academy/"
+            )
+              img.resources__logo(
+                src=require("../images/logo/resources-polka.svg"),
+                width="187",
+                height="38",
+                alt="Логотип портала Полка"
+              )
+    footer.footer
+      .container.page__container
+        .footer__columns
+          .footer__column.footer__column_content_copyright
+            a.logo.logo_place_footer(
+              target="_blank",
+              rel="noopener noreferrer",
+              aria-label="Логотип",
+              href="https://practicum.yandex.ru/"
+            ).
+
+            p.footer__author.text
+              | &copy; 2021
+              a.footer__author-link.link.link_theme_dark(
+                href="https://www.linkedin.com/in/a-meti/",
+                target="_blank",
+                rel="noopener noreferrer"
+              ).
+                Анастасия Метикова
+          .footer__column.footer__column_content_info
+            h3.footer__column-heading.title.
+              О Практикуме
+
+            nav.footer__column-links
+              ul.footer__list.list
+                li.footer__list-item
+                  a.footer__column-link.link.link_theme_dark(
+                    target="_blank",
+                    rel="noopener noreferrer",
+                    href="https://practicum.yandex.ru/"
+                  ).
+                    Главная
+
+                li.footer__list-item
+                  a.footer__column-link.link.link_theme_dark(
+                    target="_blank",
+                    rel="noopener noreferrer",
+                    href="https://yandex.ru/support/praktikum/feedback.html"
+                  ).
+                    Справка
+
+                li.footer__list-item
+                  a.footer__column-link.link.link_theme_dark(
+                    target="_blank",
+                    rel="noopener noreferrer",
+                    href="https://practicum.yandex.ru/reviews/"
+                  ).
+                    Отзывы
+
+          .footer__column.footer__column_content_social
+            h3.footer__column-heading.title.
+              Соцсети
+            nav.footer__column-links
+              ul.footer__list.list
+                li.footer__list-item
+                  a.footer__column-link.link.link_theme_dark(
+                    target="_blank",
+                    rel="noopener noreferrer",
+                    href="https://www.facebook.com/yandex.practicum"
+                  )
+                    img.footer__social-icon(
+                      src=require("../images/facebook.svg"),
+                      width="24",
+                      height="24",
+                      alt="Иконка Facebook"
+                    )
+                    | Facebook
+
+                li.footer__list-item
+                  a.footer__column-link.link.link_theme_dark(
+                    target="_blank",
+                    rel="noopener noreferrer",
+                    href="https://vk.com/yandex.practicum"
+                  )
+                    img.footer__social-icon(
+                      src=require("../images/vk.svg"),
+                      width="24",
+                      height="24",
+                      alt="Иконка Вконтакте"
+                    )
+                    | ВКонтакте
+                li.footer__list-item
+                  a.footer__column-link.link.link_theme_dark(
+                    target="_blank",
+                    rel="noopener noreferrer",
+                    href="https://www.instagram.com/yndx.practicum/"
+                  )
+                    img.footer__social-icon(
+                      src=require("../images/instagram.svg"),
+                      width="24",
+                      height="24",
+                      alt="Иконка Instagram"
+                    )
+                    | Instagram
