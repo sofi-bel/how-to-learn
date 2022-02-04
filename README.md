@@ -1,8 +1,8 @@
 # How to learn
 
-[![wakatime](https://wakatime.com/badge/user/29a8352f-15fa-421a-b8ff-a7adff87a0dc/project/9f1fe3d1-b18a-4869-883a-abeeb65d8f2a.svg)](https://wakatime.com/badge/user/29a8352f-15fa-421a-b8ff-a7adff87a0dc/project/9f1fe3d1-b18a-4869-883a-abeeb65d8f2a)
-![GitHub last commit](https://img.shields.io/github/last-commit/a-meti/how-to-learn)
-[![GitHub license](https://img.shields.io/github/license/a-meti/how-to-learn)](https://github.com/a-meti/russian-travel/blob/main/LICENSE)
+[![wakatime](https://wakatime.com/badge/user/29a8352f-15fa-421a-b8ff-a7adff87a0dc/project/9f1fe3d1-b18a-4869-883a-abeeb65d8f2a.svg?style=for-the-badge&logo=appveyor)](https://wakatime.com/badge/user/29a8352f-15fa-421a-b8ff-a7adff87a0dc/project/9f1fe3d1-b18a-4869-883a-abeeb65d8f2a)
+![GitHub last commit](https://img.shields.io/github/last-commit/a-meti/how-to-learn?style=for-the-badge&logo=appveyor)
+[![GitHub license](https://img.shields.io/github/license/a-meti/how-to-learn?style=for-the-badge&logo=appveyor)](https://github.com/a-meti/russian-travel/blob/main/LICENSE)
 <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
