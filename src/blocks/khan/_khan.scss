@@ -1,40 +1,47 @@
+@use "sass:map";
+@import "./src/scss/variables";
+
+$quote-width: 50%;
+$image-width: 100%;
+$image-height: 38rem;
+
 .khan {
-  background-color: #f2f2f2;
+  background-color: map.get($theme-colors, "bg-light");
 
   &__container {
-    @media screen and (min-width: 992px) {
+    @media (min-width: map.get($grid-breakpoints, lg)) {
       padding-bottom: 0;
     }
   }
 
   &__title {
-    font-size: 2.441rem;
+    font-size: map.get($font-size, lg);
   }
 
   &__quote {
-    @media screen and (min-width: 768px) {
-      max-width: 50%;
+    @media (min-width: map.get($grid-breakpoints, md)) {
+      max-width: $quote-width;
     }
   }
 
   &__book-container {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: map.get($spaces, sm);
 
-    @media screen and (min-width: 992px) {
+    @media (min-width: map.get($grid-breakpoints, lg)) {
       flex-direction: row;
     }
   }
 
   &__book-pic {
-    max-width: 100%;
+    max-width: $image-width;
     height: auto;
     object-position: top left;
   }
 
   &__book-pic-wrap {
     display: flex;
-    max-height: 38rem;
+    max-height: $image-height;
   }
 }

@@ -1,8 +1,11 @@
+@use "sass:map";
+@import "./src/scss/variables";
+
 .section-title {
-  font-size: 2.441rem;
+  font-size: map.get($font-size, lg);
   text-align: center;
 
   &_theme_dark {
-    color: #fff;
+    color: map.get($theme-colors, "text-light");
   }
 }

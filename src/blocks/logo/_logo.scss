@@ -1,20 +1,25 @@
+@use "sass:map";
+@import "./src/scss/variables";
+
+$logo-height: 2rem;
+
 .logo {
   display: flex;
-  min-height: 2rem;
+  min-height: $logo-height;
   background-size: contain;
   background-repeat: no-repeat;
 
   &_place_header {
-    max-width: 12rem;
+    max-width: map.get($spaces, xl);
     background-image: url("../images/yandex.svg"),
       url("../images/practicum.svg");
-    background-position: left center, left 3rem center;
+    background-position: left center, left (map.get($spaces, sm)) center;
   }
 
   &_place_footer {
-    margin-bottom: 1rem;
+    margin-bottom: map.get($spaces, xs);
     background-image: url("../images/yandex_white.svg"),
       url("../images/practicum_white.svg");
-    background-position: left center, left 3rem center;
+    background-position: left center, left (map.get($spaces, sm)) center;
   }
 }

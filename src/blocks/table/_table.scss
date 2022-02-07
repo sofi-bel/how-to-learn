@@ -1,10 +1,13 @@
+@use "sass:map";
+@import "./src/scss/variables";
+
 .table {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  grid-gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(map.get($spaces, xxl), 1fr));
+  grid-gap: map.get($spaces, sm);
 
-  @media screen and (min-width: 992px) {
-    grid-gap: 6rem;
+  @media (min-width: map.get($grid-breakpoints, lg)) {
+    grid-gap: map.get($spaces, md);
   }
 
   &_theme_dark {
@@ -14,16 +17,16 @@
   &__cell {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: map.get($spaces, xs);
 
     &_theme_dark {
-      color: #fff;
+      color: map.get($theme-colors, "text-light");
       counter-increment: listNumber;
 
       &::before {
         content: counter(listNumber);
-        font-weight: 700;
-        font-size: 1.5rem;
+        font-weight: map.get($font-weight, "bold");
+        font-size: map.get($font-size, sm);
       }
     }
   }

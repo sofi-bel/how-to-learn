@@ -1,45 +1,54 @@
+@use "sass:map";
+@import "./src/scss/variables";
+
+$background-image-size-md: 60%;
+$background-image-size-lg: 50%;
+$background-image-size-xl: 40rem;
+$text-width-md: 26rem;
+$text-width-lg: 45.625rem;
+
 .header {
-  min-height: 40rem;
-  background-color: #f2f2f2;
+  min-height: $background-image-size-xl;
+  background-color: map.get($theme-colors, "bg-light");
   background-image: url("../images/two_again.webp");
   background-position: right bottom;
-  background-size: auto 15rem;
+  background-size: auto map.get($spaces, xxl);
   background-repeat: no-repeat;
 
-  @media screen and (min-width: 768px) {
-    background-size: 60% auto;
+  @media (min-width: map.get($grid-breakpoints, md)) {
+    background-size: $background-image-size-md auto;
   }
 
-  @media screen and (min-width: 992px) {
-    background-size: 50% auto;
+  @media (min-width: map.get($grid-breakpoints, lg)) {
+    background-size: $background-image-size-lg auto;
   }
 
-  @media screen and (min-width: 1280px) {
-    background-size: auto 40rem;
+  @media (min-width: map.get($grid-breakpoints, xl)) {
+    background-size: auto $background-image-size-xl;
   }
 
   &__title {
-    max-width: 27.5rem;
-    font-size: 3.052rem;
-    line-height: 1.3;
+    max-width: $text-width-md;
+    font-size: map.get($font-size, xl);
+    line-height: map.get($line-height, sm);
 
-    @media screen and (min-width: 992px) {
-      max-width: 45.625rem;
-      font-size: 6.375rem;
-      line-height: 0.94;
+    @media (min-width: map.get($grid-breakpoints, lg)) {
+      max-width: $text-width-lg;
+      font-size: map.get($font-size, xxl);
+      line-height: map.get($line-height, xs);
     }
   }
 
   &__subtitle {
-    max-width: 25rem;
+    max-width: $text-width-md;
 
-    @media screen and (min-width: 992px) {
-      font-size: 1.125rem;
-      line-height: 1.39;
+    @media (min-width: map.get($grid-breakpoints, lg)) {
+      font-size: map.get($font-size, xs);
+      line-height: map.get($line-height, md);
     }
   }
 
   &__link {
-    padding-left: 0.2rem;
+    padding-left: map.get($spaces, xxs);
   }
 }

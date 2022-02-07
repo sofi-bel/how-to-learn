@@ -1,5 +1,8 @@
+@use "sass:map";
+@import "./src/scss/variables";
+
 .title {
   margin: 0;
-  font-weight: 700;
-  line-height: 1.3;
+  font-weight: map.get($font-weight, "bold");
+  line-height: map.get($line-height, sm);
 }

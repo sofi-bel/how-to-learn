@@ -1,29 +1,37 @@
+@use "sass:map";
+@import "./src/scss/variables";
+
+$start-transform-position: -15deg;
+$end-transform-position: 345deg;
+$size-triangle: 55rem;
+$left-position-triangle: -10%;
+
 @keyframes rotate {
   0% {
-    transform: rotate(-15deg);
+    transform: rotate($start-transform-position);
   }
 
   100% {
-    transform: rotate(345deg);
+    transform: rotate($end-transform-position);
   }
 }
 
 .kaufman {
   position: relative;
-  background-color: #1f1f1f;
+  background-color: map.get($theme-colors, "bg-dark");
 
   &::after {
-    @media screen and (min-width: 1280px) {
+    @media (min-width: map.get($grid-breakpoints, xl)) {
       content: "";
       position: absolute;
       top: 0;
-      right: -10%;
-      min-width: 55rem;
-      min-height: 55rem;
+      right: $left-position-triangle;
+      min-width: $size-triangle;
+      min-height: $size-triangle;
       background-image: url("../images/triangle.svg");
       background-size: cover;
       background-repeat: no-repeat;
-      animation: rotate linear infinite 20s;
+      animation: rotate linear infinite $animation-duration;
     }
   }
 }

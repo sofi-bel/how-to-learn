@@ -1,35 +1,42 @@
+@use "sass:map";
+@import "./src/scss/variables";
+
+$background-image-size-md: 50%;
+$background-image-size-xl: 32rem;
+$background-image-left-position: 25%;
+
 .feynman {
-  background-color: #f2f2f2;
+  background-color: map.get($theme-colors, "bg-light");
   background-image: url("../images/feinman.webp");
   background-position: right bottom;
-  background-size: auto 15rem;
+  background-size: auto map.get($spaces, xxl);
   background-repeat: no-repeat;
 
-  @media screen and (min-width: 768px) {
-    background-size: 50% auto;
+  @media (min-width: map.get($grid-breakpoints, md)) {
+    background-size: $background-image-size-md auto;
   }
 
-  @media screen and (min-width: 1280px) {
-    background-position: left 25% bottom;
-    background-size: auto 32rem;
+  @media (min-width: map.get($grid-breakpoints, xl)) {
+    background-position: left ($background-image-left-position) bottom;
+    background-size: auto $background-image-size-xl;
   }
 
   &__title {
-    font-size: 2.441rem;
+    font-size: map.get($font-size, lg);
 
-    @media screen and (min-width: 1280px) {
+    @media (min-width: map.get($grid-breakpoints, xl)) {
       text-align: center;
     }
   }
 
   &__subtitle {
-    @media screen and (min-width: 1280px) {
+    @media (min-width: map.get($grid-breakpoints, xl)) {
       text-align: center;
     }
   }
 
   &__link {
-    @media screen and (min-width: 1280px) {
+    @media (min-width: map.get($grid-breakpoints, xl)) {
       text-align: right;
     }
   }

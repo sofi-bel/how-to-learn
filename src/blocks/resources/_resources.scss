@@ -1,15 +1,20 @@
+@use "sass:map";
+@import "./src/scss/variables";
+
+$section-subtitle-width: 100%;
+
 .resources {
   &__section-subtitle {
-    max-width: 100%;
+    max-width: $section-subtitle-width;
   }
 
   &__logo-zone {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    grid-gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(map.get($spaces, xxl), 1fr));
+    grid-gap: map.get($spaces, sm);
 
-    @media screen and (min-width: 1280px) {
-      grid-gap: 6rem;
+    @media (min-width: map.get($grid-breakpoints, xl)) {
+      grid-gap: map.get($spaces, md);
     }
   }
 
@@ -18,11 +23,12 @@
     object-fit: contain;
     margin: 0 auto;
     padding: 0;
-    transition: opacity 0.5s ease-out, transform 0.5s ease-in-out;
+    transition: opacity $transition-duration ease-out,
+      transform $transition-duration ease-in-out;
 
     &:hover {
-      @media screen and (min-width: 992px) {
-        opacity: 0.3;
+      @media (min-width: map.get($grid-breakpoints, lg)) {
+        opacity: $opacity;
         transform: scale(1.2);
       }
     }

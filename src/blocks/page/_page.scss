@@ -1,20 +1,25 @@
+@use "sass:map";
+@import "./src/scss/variables";
+
+$section-subtitle-width: 60%;
+
 .page {
-  font-weight: 400;
-  font-family: Inter, Arial, sans-serif;
-  line-height: 1.75;
+  font-weight: map.get($font-weight, "normal");
+  font-family: $font-stack;
+  line-height: map.get($line-height, lg);
 
   &__container {
     position: relative;
-    max-width: 100rem;
+    max-width: map.get($container-max-widths, lg);
     margin: 0 auto;
-    padding: 3rem 1rem;
+    padding: map.get($spaces, sm) map.get($spaces, xs);
 
-    @media screen and (min-width: 992px) {
-      padding: 3rem;
+    @media (min-width: map.get($grid-breakpoints, lg)) {
+      padding: map.get($spaces, sm);
     }
 
-    @media screen and (min-width: 1280px) {
-      padding: 6rem;
+    @media (min-width: map.get($grid-breakpoints, xl)) {
+      padding: map.get($spaces, md);
     }
   }
 
@@ -23,31 +28,31 @@
   }
 
   &__section-subtitle {
-    max-width: 60%;
+    max-width: $section-subtitle-width;
     margin: 0 auto;
   }
 
   &__video {
-    margin-bottom: -6rem;
+    margin-bottom: -(map.get($spaces, md));
 
-    @media screen and (min-width: 1280px) {
-      margin-bottom: -12rem;
+    @media (min-width: map.get($grid-breakpoints, xl)) {
+      margin-bottom: -(map.get($spaces, xl));
     }
   }
 
   &__oakley {
-    padding-top: 3rem;
+    padding-top: map.get($spaces, sm);
 
-    @media screen and (min-width: 1280px) {
-      padding-top: 6rem;
+    @media (min-width: map.get($grid-breakpoints, xl)) {
+      padding-top: map.get($spaces, md);
     }
   }
 
   &__feynman {
-    padding-bottom: 15rem;
+    padding-bottom: map.get($spaces, xxl);
 
-    @media screen and (min-width: 992px) {
-      padding-bottom: 10rem;
+    @media (min-width: map.get($grid-breakpoints, lg)) {
+      padding-bottom: map.get($spaces, lg);
     }
   }
 }

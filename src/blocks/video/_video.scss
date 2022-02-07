@@ -1,15 +1,21 @@
+@use "sass:map";
+@import "./src/scss/variables";
+
+$video-width-xs: 50%;
+$video-width-xl: 35rem;
+
 .video {
   &__iframes {
     display: grid;
-    gap: 1.25rem;
+    gap: map.get($spaces, xs);
 
-    @media screen and (min-width: 992px) {
-      grid-template-columns: repeat(2, 50%);
+    @media (min-width: map.get($grid-breakpoints, lg)) {
+      grid-template-columns: repeat(2, $video-width-xs);
       justify-content: center;
     }
 
-    @media screen and (min-width: 1280px) {
-      grid-template-columns: repeat(2, 35rem);
+    @media (min-width: map.get($grid-breakpoints, xl)) {
+      grid-template-columns: repeat(2, $video-width-xl);
     }
   }
 

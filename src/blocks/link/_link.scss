@@ -1,15 +1,18 @@
+@use "sass:map";
+@import "./src/scss/variables";
+
 .link {
-  color: #006cd6;
+  color: map.get($theme-colors, "primary");
   text-decoration: none;
-  transition: opacity 1s ease-out;
+  transition: opacity $transition-duration ease-out;
 
   &:hover {
-    @media screen and (min-width: 992px) {
-      opacity: 0.3;
+    @media (min-width: map.get($grid-breakpoints, lg)) {
+      opacity: $opacity;
     }
   }
 
   &_theme_dark {
-    color: #fff;
+    color: map.get($theme-colors, "text-light");
   }
 }
