@@ -28,22 +28,12 @@ html(lang="en")
   body.page
     header.header.page__header
       .container.page__container
-        a.logo.logo_place_header.logo_type_en(
+        a.logo.logo_place_header(
           target="_blank",
           rel="noopener noreferrer",
           aria-label="Logo",
           href="https://practicum.yandex.com/"
         )
-        ul.header__lang-list.list
-          li.header__lang-item
-            a.header__lang-link.header__lang-link_lang_ru(href="./ru")
-              | Ru
-          li.header__lang-item
-            a.header__lang-link.header__lang-link_lang_en.header__lang-link_active(
-              href="/",
-              target="_self"
-            )
-              | En
         h1.header__title.title.lng-unit
           | How to learn
         p.header__subtitle.text
@@ -451,7 +441,7 @@ html(lang="en")
       .container.page__container
         .footer__columns
           .footer__column.footer__column_content_copyright
-            a.logo.logo_place_footer.logo_type_en(
+            a.logo.logo_place_footer(
               target="_blank",
               rel="noopener noreferrer",
               aria-label="Logo",

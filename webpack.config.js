@@ -47,11 +47,6 @@ module.exports = {
       title: "How to learn",
       filename: "index.html",
     }),
-    new HtmlWebpackPlugin({
-      template: "./ru/index.pug",
-      title: "Научиться учиться",
-      filename: "./ru/index.html",
-    }),
   ],
 
   module: {

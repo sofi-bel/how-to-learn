@@ -18,37 +18,6 @@
     background-size: auto 40rem;
   }
 
-  &__lang-list {
-    position: absolute;
-    right: 1rem;
-    display: flex;
-    gap: 1rem;
-
-    @media screen and (min-width: 992px) {
-      right: 3rem;
-    }
-
-    @media screen and (min-width: 1280px) {
-      right: 6rem;
-    }
-  }
-
-  &__lang-link {
-    color: #000;
-    text-decoration: none;
-    transition: opacity 1s ease-out;
-
-    &:hover {
-      @media screen and (min-width: 992px) {
-        opacity: 0.3;
-      }
-    }
-
-    &_active {
-      text-decoration: underline;
-    }
-  }
-
   &__title {
     max-width: 27.5rem;
     font-size: 3.052rem;
