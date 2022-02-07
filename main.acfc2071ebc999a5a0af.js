@@ -1,7 +1,7 @@
 "use strict";
 (self["webpackChunk"] = self["webpackChunk"] || []).push([[179],{
 
-/***/ 997:
+/***/ 531:
 /***/ (function() {
 
 
@@ -272,7 +272,7 @@ class LiteYTEmbed extends HTMLElement {
 LiteYTEmbed.isPreconnected = false;
 customElements.define('lite-youtube', LiteYTEmbed);
 //# sourceMappingURL=lite-youtube.js.map
-;// CONCATENATED MODULE: ./pages/index.js
+;// CONCATENATED MODULE: ./scripts/index.js
 
 
 
@@ -281,6 +281,6 @@ customElements.define('lite-youtube', LiteYTEmbed);
 },
 /******/ function(__webpack_require__) { // webpackRuntimeModules
 /******/ var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-/******/ var __webpack_exports__ = (__webpack_exec__(997));
+/******/ var __webpack_exports__ = (__webpack_exec__(531));
 /******/ }
 ]);
