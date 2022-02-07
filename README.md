@@ -1,8 +1,9 @@
-# How to learn
-
-[![wakatime](https://wakatime.com/badge/user/29a8352f-15fa-421a-b8ff-a7adff87a0dc/project/9f1fe3d1-b18a-4869-883a-abeeb65d8f2a.svg?style=for-the-badge&logo=appveyor)](https://wakatime.com/badge/user/29a8352f-15fa-421a-b8ff-a7adff87a0dc/project/9f1fe3d1-b18a-4869-883a-abeeb65d8f2a)
-![GitHub last commit](https://img.shields.io/github/last-commit/a-meti/how-to-learn?style=for-the-badge&logo=appveyor)
-[![GitHub license](https://img.shields.io/github/license/a-meti/how-to-learn?style=for-the-badge&logo=appveyor)](https://github.com/a-meti/russian-travel/blob/main/LICENSE)
+<div align="center">
+  <h1>How to learn</h1>
+  <p>A landing page about educational techniques and statistics in teaching.</p>
+<a href="https://wakatime.com/badge/user/29a8352f-15fa-421a-b8ff-a7adff87a0dc/project/9f1fe3d1-b18a-4869-883a-abeeb65d8f2a"><img src="https://wakatime.com/badge/user/29a8352f-15fa-421a-b8ff-a7adff87a0dc/project/9f1fe3d1-b18a-4869-883a-abeeb65d8f2a.svg?style=for-the-badge&logo=appveyor" alt="wakatime"></a>
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/a-meti/how-to-learn?style=for-the-badge">
+<a href="https://github.com/a-meti/how-to-learn/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/a-meti/how-to-learn?style=for-the-badge"></a>
 <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -10,8 +11,7 @@
             alt="Правильный CSS!" />
     </a>
 </p>
-
-A landing page about educational techniques and statistics in teaching.
+</div>
 
 ## Stack
 * HTML5 & CSS3
@@ -29,27 +29,27 @@ A landing page about educational techniques and statistics in teaching.
 * Semantic layout
 * Webpack
 
-## Installation
-1. Clone repository
+## Build Setup
+Clone the repo
+
 ```
 git clone https://github.com/a-meti/how-to-learn.git
 ```
-2. Install dependencies using [npm](https://www.npmjs.com/) (I use [Node.js](https://nodejs.org) v16.13.2)
+Install dependencies
 ```
 npm install
 ```
-## Run
-### Development
-```
-npm run dev
-```
-### Development with Hot Module Replacement
+Server with hot reload at http://localhost:9000/
 ```
 npm run start
 ```
-### Production
+Production Build
 ```
 npm run build
+```
+Development mode
+```
+npm run dev
 ```
 
 ### Demo
