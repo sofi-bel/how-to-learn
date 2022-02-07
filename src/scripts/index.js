@@ -1,2 +1,2 @@
 import "@justinribeiro/lite-youtube";
-import "./index.scss";
+import "../scss/index.scss";
