@@ -3,6 +3,7 @@ html(lang="en")
   head
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width,initial-scale=1")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
     meta(name="description", content="How to learn")
     meta(
       name="keywords",
@@ -34,7 +35,7 @@ html(lang="en")
           aria-label="Logo",
           href="https://practicum.yandex.com/"
         )
-        h1.header__title.title.lng-unit
+        h1.header__title.title
           | How to learn
         p.header__subtitle.text
           | What modern and effective approaches to learning can you use
@@ -43,16 +44,16 @@ html(lang="en")
             target="_blank",
             rel="noopener noreferrer",
             href="https://cognitiontoday.com/best-ways-to-learn-anything-efficiently/"
-          ).
-            Discover →
+          )
+            | Discover →
     main.content
       section.description.page__description.section.page__section(
         aria-label="Block with an article"
       )
         .container.page__container
           article.article.description__article
-            h2.article__title.title.
-              The main problems in learning
+            h2.article__title.title
+              | The main problems in learning
             .article__main-text
               p.article__paragraph.text
                 | Neither at school nor at the institute do they
@@ -74,12 +75,10 @@ html(lang="en")
                 | of training in the Practicum.
       section.techniques.page__techniques.section.page__section
         .container.page__container
-          h2.section-title.title.
-            Teaching Techniques
-
-          p.section-subtitle.page__section-subtitle.
-            Five practices from Barbara Oakley
-
+          h2.section-title.title
+            | Teaching Techniques
+          p.section-subtitle.page__section-subtitle
+            | Five practices from Barbara Oakley
           ul.cards.techniques__cards.list
             li.cards__item
               picture.cards__image-wrap
@@ -93,12 +92,11 @@ html(lang="en")
                   height="160",
                   alt="book in hand"
                 )
-              h3.cards__title.title.
-                Two kinds of attention
-
-              p.cards__description.text.
-                Deep knowledge arises by alternating between focused and
-                scattered thinking.
+              h3.cards__title.title
+                | Two kinds of attention
+              p.cards__description.text
+                | Deep knowledge arises by alternating between focused and
+                | scattered thinking.
 
             li.cards__item
               picture.cards__image-wrap
@@ -112,12 +110,11 @@ html(lang="en")
                   height="160",
                   alt="The statue"
                 )
-              h3.cards__title.title.
-                Recall
-
-              p.cards__description.text.
-                Recall what you have learned &mdash; this will allow you
-                to connect disparate portions of memory.
+              h3.cards__title.title
+                | Recall
+              p.cards__description.text
+                | Recall what you have learned &mdash; this will allow you
+                | to connect disparate portions of memory.
 
             li.cards__item
               picture.cards__image-wrap
@@ -131,13 +128,11 @@ html(lang="en")
                   height="160",
                   alt="Hall"
                 )
-              h3.cards__title.title.
-                Interleaving
-
-              p.cards__description.text.
-                Learn several skills at&nbsp;the same time, they enrich each
-                other.
-
+              h3.cards__title.title
+                | Interleaving
+              p.cards__description.text
+                | Learn several skills at&nbsp;the same time, they enrich each
+                | other.
             li.cards__item
               picture.cards__image-wrap
                 source(
@@ -150,13 +145,11 @@ html(lang="en")
                   height="160",
                   alt="White room"
                 )
-              h3.cards__title.title.
-                Questions
-
-              p.cards__description.text.
-                As&nbsp;you listen to&nbsp;your teacher, come up&nbsp;with
-                a&nbsp;good question that you really care about.
-
+              h3.cards__title.title
+                | Questions
+              p.cards__description.text
+                | As&nbsp;you listen to&nbsp;your teacher, come up&nbsp;with
+                | a&nbsp;good question that you really care about.
             li.cards__item
               picture.cards__image-wrap
                 source(
@@ -169,162 +162,130 @@ html(lang="en")
                   height="160",
                   alt="Stack of books"
                 )
-              h3.cards__title.title.
-                Illusion of competence
-
-              p.cards__description.text.
-                Repeat to&nbsp;yourself, write it&nbsp;down, tell a&nbsp;friend:
-                 it&nbsp;just seems to&nbsp;you that you own a&nbsp;new topic.
-
+              h3.cards__title.title
+                | Illusion of competence
+              p.cards__description.text
+                | Repeat to&nbsp;yourself, write it&nbsp;down, tell
+                | a&nbsp;friend: it&nbsp;just seems to&nbsp;you that you own
+                | a&nbsp;new topic.
       section.video.page__video.section.page__section
         .container.page__container
-          h2.section-title.title.
-            Video at&nbsp;TED
-
-          p.section-subtitle.page__section-subtitle.
-            For those who like to&nbsp;procrastinate
-
+          h2.section-title.title
+            | Video at&nbsp;TED
+          p.section-subtitle.page__section-subtitle.text
+            | For those who like to&nbsp;procrastinate
           ul.video__iframes.list
             li.video__item
               lite-youtube.video__iframe(
-                videotitle="Inside the mind of a master procrastinator | " + "Tim Urban",
+                videotitle="Inside the mind of a master procrastinator | Tim Urban",
                 videoid="arj7oStGLkU"
-              ).
-
+              )
             li.video__item
               lite-youtube.video__iframe(
-                videotitle="The first 20 hours -- how to learn anything | " + "Josh Kaufman",
+                videotitle="The first 20 hours -- how to learn anything | Josh Kaufman",
                 videoid="5MgBikgcWnY"
-              ).
-
+              )
       section.oakley.page__oakley.section.page__section(
         aria-label="Block with the history of Barbara Oakley"
       )
         .container.page__container
           article.article.oakley__article
-            h2.article__title.title.
-              Barbara Oakley&rsquo;s story
-
+            h2.article__title.title
+              | Barbara Oakley&rsquo;s story
             .article__main-text
-              p.article__paragraph.text.
-                From childhood, Barbara was not given mathematics. She
-                considered herself a&nbsp;complete humanist, and far from being
-                the smartest. In&nbsp;the army, she studied Russian to&nbsp;get
-                a&nbsp;raise, and so&nbsp;successfully that she was promoted
-                to&nbsp;commander. But for promotion, you had to&nbsp;take math.
-                And then Barbara came up&nbsp;with her own approach to&nbsp;the
-                exact sciences. It&nbsp;turned out that if&nbsp;something
-                is&nbsp;&laquo;badly given&raquo; to&nbsp;you, your knowledge
-                gained by&nbsp;labor is&nbsp;much deeper than that
-                of&nbsp;those to&nbsp;whom everything is&nbsp;clear
-                at&nbsp;first sight.
-
+              p.article__paragraph.text
+                | From childhood, Barbara was not given mathematics. She
+                | considered herself a&nbsp;complete humanist, and far from
+                | being the smartest. In&nbsp;the army, she studied Russian
+                | to&nbsp;get a&nbsp;raise, and so&nbsp;successfully that she
+                | was promoted to&nbsp;commander. But for promotion, you had
+                | to&nbsp;take math. And then Barbara came up&nbsp;with her own
+                | approach to&nbsp;the exact sciences. It&nbsp;turned out that
+                | if&nbsp;something is&nbsp;&laquo;badly given&raquo;
+                | to&nbsp;you, your knowledge gained by&nbsp;labor is&nbsp;much
+                | deeper than that of&nbsp;those to&nbsp;whom everything
+                | is&nbsp;clear at&nbsp;first sight.
       section.feynman.page__feynman.section.page__section
         .container.page__container
-          h2.feynman__title.title.
-            Feynman method
-
-          p.feynman__subtitle.text.
-            Learn and don&rsquo;t forget.
-
+          h2.feynman__title.title
+            | Feynman method
+          p.feynman__subtitle.text
+            | Learn and don&rsquo;t forget.
           a.feynman__link.link(
             target="_blank",
             rel="noopener noreferrer",
             href="https://medium.com/taking-note/learning-from-the-feynman-technique-5373014ad230"
-          ).
-            More →
-
+          )
+            | More →
       section.digits.page__digits.section.page__section
         .container.page__container.digits__container
-          h2.section-title.title.
-            Numbers and facts
-
-          p.section-subtitle.page__section-subtitle.
-            About learning and the brain
-
+          h2.section-title.title
+            | Numbers and facts
+          p.section-subtitle.page__section-subtitle.text
+            | About learning and the brain
           ul.table.digits__table.list
             li.table__cell
-              h3.table__heading.title.
-                86&nbsp;billion
-
-              p.table__text.text.
-                The number of&nbsp;neurons in&nbsp;the human brain
-
+              h3.table__heading.title
+                | 86&nbsp;billion
+              p.table__text.text
+                | The number of&nbsp;neurons in&nbsp;the human brain
             li.table__cell
-              h3.table__heading.title.
-                2.1 billion
-
-              p.table__text.text.
-                Number of&nbsp;people in&nbsp;need of&nbsp;advanced training
-
-              p.table__text.text.
-                World Bank, 2017
-
+              h3.table__heading.title
+                | 2.1 billion
+              p.table__text.text
+                | Number of&nbsp;people in&nbsp;need of&nbsp;advanced training
+              p.table__text.text
+                | World Bank, 2017
             li.table__cell
-              h3.table__heading.title.
-                1000 terabytes
-
-              p.table__text.text.
-                Human memory capacity
-
+              h3.table__heading.title
+                | 1000 terabytes
+              p.table__text.text
+                | Human memory capacity
             li.table__cell
-              h3.table__heading.title.
-                500 trillion
-
-              p.table__text.text.
-                The number of&nbsp;nerve synapses responsible for learning
-                in&nbsp;an&nbsp;adult
-
+              h3.table__heading.title
+                | 500 trillion
+              p.table__text.text
+                | The number of&nbsp;nerve synapses responsible for learning
+                | in&nbsp;an&nbsp;adult
             li.table__cell
-              h3.table__heading.title.
-                420 million
-
-              p.table__text.text.
-                Number of&nbsp;adults under the age of&nbsp;25&nbsp;without
-                education for employment
+              h3.table__heading.title
+                | 420 million
+              p.table__text.text
+                | Number of&nbsp;adults under the age of&nbsp;25&nbsp;without
+                | education for employment
             li.table__cell
-              h3.table__heading.title.
-                17–20 years
-
-              p.table__text.text.
-                Peak of&nbsp;Learnability
-
+              h3.table__heading.title
+                | 17–20 years
+              p.table__text.text
+                | Peak of&nbsp;Learnability
             li.table__cell
-              h3.table__heading.title.
-                1885
-
-              p.table__text.text.
-                Discovery of&nbsp;Forgetting Curve
-
+              h3.table__heading.title
+                | 1885
+              p.table__text.text
+                | Discovery of&nbsp;Forgetting Curve
             li.table__cell
-              h3.table__heading.title.
-                1889
-
-              p.table__text.text.
-                Discovery of&nbsp;the conditioned reflex
-
+              h3.table__heading.title
+                | 1889
+              p.table__text.text
+                | Discovery of&nbsp;the conditioned reflex
       section.khan.page__khan.section.page__section
         .container.page__container.khan__container
-          p.khan__author.text.
-            Salman Khan
-
-          h2.khan__title.title.
-            The whole world is&nbsp;a&nbsp;school
-
-          blockquote.khan__quote.text.
-            Sala Khan&rsquo;s passion and innovation is&nbsp;transforming the
-            learning experience for millions of&nbsp;students around the world.
-            The World Is&nbsp;a&nbsp;School is&nbsp;a&nbsp;must read for all
-            educators so&nbsp;that students everywhere can acquire the skills
-            and knowledge that lead to&nbsp;success in&nbsp;school, career and
-            life.
+          p.khan__author.text
+            | Salman Khan
+          h2.khan__title.title
+            | The whole world is&nbsp;a&nbsp;school
+          blockquote.khan__quote.text
+            | Sala Khan&rsquo;s passion and innovation is&nbsp;transforming the
+            | learning experience for millions of&nbsp;students around the
+            | world. The World Is&nbsp;a&nbsp;School is&nbsp;a&nbsp;must read
+            | for all educators so&nbsp;that students everywhere can acquire the
+            | skills and knowledge that lead to&nbsp;success in&nbsp;school,
+            | career and life.
           .khan__quote-author
-            p.text.
-              George Lucas
-
-            p.text.
-              Film director, producer
-
+            p.text
+              | George Lucas
+            p.text
+              | Film director, producer
           .khan__book-container
             picture.khan__book-pic-wrap
               source(
@@ -341,57 +302,42 @@ html(lang="en")
               target="_blank",
               rel="noopener noreferrer",
               href="https://www.amazon.com/One-World-Schoolhouse-Education-Reimagined/dp/1455508373/ref=sr_1_1?crid=14C9D726RG32X&keywords=salman+khan+the+one+world+schoolhouse&qid=1643986082&sprefix=salman+khan+the+one+world+schoolhous%2Caps%2C251&sr=8-1"
-            ).
-              Buy a&nbsp;book →
-
+            )
+              | Buy a&nbsp;book →
       section.kaufman.page__kaufman.section.page__section
         .container.page__container
-          h2.section-title.section-title_theme_dark.title.
-            Learning principles
-
-          p.section-subtitle.section-subtitle_theme_dark.page__section-subtitle.
-            by Josh Kaufman
-
+          h2.section-title.section-title_theme_dark.title
+            | Learning principles
+          p.section-subtitle.section-subtitle_theme_dark.page__section-subtitle.text
+            | by Josh Kaufman
           ol.table.table_theme_dark.kaufman__table.list
-            li.table__cell.table__cell_theme_dark.
-              Choose an&nbsp;attractive project.
-
-            li.table__cell.table__cell_theme_dark.
-              Focus on&nbsp;one skill.
-
-            li.table__cell.table__cell_theme_dark.
-              Determine your target skill level.
-
-            li.table__cell.table__cell_theme_dark.
-              Break the skill into elements.
-
-            li.table__cell.table__cell_theme_dark.
-              Prepare everything you need for class.
-
-            li.table__cell.table__cell_theme_dark.
-              Remove barriers to&nbsp;practice.
-
-            li.table__cell.table__cell_theme_dark.
-              Set aside dedicated time for practice.
-
-            li.table__cell.table__cell_theme_dark.
-              Create fast feedback loops.
-
-            li.table__cell.table__cell_theme_dark.
-              Work out on&nbsp;a&nbsp;schedule, in&nbsp;short, intense
-              intervals.
-
-            li.table__cell.table__cell_theme_dark.
-              Pay attention to&nbsp;quantity and speed.
-
+            li.table__cell.table__cell_theme_dark
+              | Choose an&nbsp;attractive project.
+            li.table__cell.table__cell_theme_dark
+              | Focus on&nbsp;one skill.
+            li.table__cell.table__cell_theme_dark
+              | Determine your target skill level.
+            li.table__cell.table__cell_theme_dark
+              | Break the skill into elements.
+            li.table__cell.table__cell_theme_dark
+              | Prepare everything you need for class.
+            li.table__cell.table__cell_theme_dark
+              | Remove barriers to&nbsp;practice.
+            li.table__cell.table__cell_theme_dark
+              | Set aside dedicated time for practice.
+            li.table__cell.table__cell_theme_dark
+              | Create fast feedback loops.
+            li.table__cell.table__cell_theme_dark
+              | Work out on&nbsp;a&nbsp;schedule, in&nbsp;short, intense
+              | intervals.
+            li.table__cell.table__cell_theme_dark
+              | Pay attention to&nbsp;quantity and speed.
       section.resources.page__resources.section.page__section
         .container.page__container
-          h2.section-title.title.
-            Useful Resources
-
-          p.section-subtitle.resources__section-subtitle.page__section-subtitle.
-            More materials about learning techniques and life hacks
-
+          h2.section-title.title
+            | Useful Resources
+          p.section-subtitle.resources__section-subtitle.page__section-subtitle.text
+            | More materials about learning techniques and life hacks
           .resources__logo-zone
             a.resources__link(
               target="_blank",
@@ -446,20 +392,18 @@ html(lang="en")
               rel="noopener noreferrer",
               aria-label="Logo",
               href="https://practicum.yandex.com/"
-            ).
-
+            )
             p.footer__author.text
               | &copy; 2021
               a.footer__author-link.link.link_theme_dark(
                 href="https://www.linkedin.com/in/a-meti/",
                 target="_blank",
                 rel="noopener noreferrer"
-              ).
-                Anastasiia Metikova
+              )
+                | Anastasiia Metikova
           .footer__column.footer__column_content_info
-            h3.footer__column-heading.title.
-              About practicum
-
+            h3.footer__column-heading.title
+              | About practicum
             nav.footer__column-links
               ul.footer__list.list
                 li.footer__list-item
@@ -467,28 +411,25 @@ html(lang="en")
                     target="_blank",
                     rel="noopener noreferrer",
                     href="https://practicum.yandex.com/"
-                  ).
-                    Home page
-
+                  )
+                    | Home page
                 li.footer__list-item
                   a.footer__column-link.link.link_theme_dark(
                     target="_blank",
                     rel="noopener noreferrer",
                     href="https://yandex.com/support/practicum/feedback.html"
-                  ).
-                    Support
-
+                  )
+                    | Support
                 li.footer__list-item
                   a.footer__column-link.link.link_theme_dark(
                     target="_blank",
                     rel="noopener noreferrer",
                     href="https://yandex.com/legal/practicum_termsofuse/"
-                  ).
-                    Legal information
-
+                  )
+                    | Legal information
           .footer__column.footer__column_content_social
-            h3.footer__column-heading.title.
-              Social network
+            h3.footer__column-heading.title
+              | Social network
             nav.footer__column-links
               ul.footer__list.list
                 li.footer__list-item
