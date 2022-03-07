@@ -37,19 +37,19 @@ git clone https://github.com/a-meti/how-to-learn.git
 ```
 Install dependencies
 ```
-npm install
+yarn install
 ```
 Server with hot reload at http://localhost:9000/
 ```
-npm run start
+yarn run start
 ```
 Production Build
 ```
-npm run build
+yarn run build
 ```
 Development mode
 ```
-npm run dev
+yarn run dev
 ```
 
 ### Demo
