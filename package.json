@@ -40,7 +40,7 @@
     "url": "https://github.com/a-meti/how-to-learn/issues"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.5",
+    "@babel/core": "^7.17.8",
     "@babel/preset-env": "^7.16.11",
     "@prettier/plugin-pug": "^1.20.0",
     "babel-loader": "^8.2.4",
