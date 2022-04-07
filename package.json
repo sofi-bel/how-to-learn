@@ -40,7 +40,7 @@
     "url": "https://github.com/a-meti/how-to-learn/issues"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.5",
+    "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
     "@prettier/plugin-pug": "^1.20.0",
     "babel-loader": "^8.2.4",
@@ -73,7 +73,7 @@
     "stylelint-prettier": "^2.0.0",
     "stylelint-sass-render-errors": "^3.0.0",
     "stylelint-scss": "^4.2.0",
-    "webpack": "^5.71.0",
+    "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.8.0",
     "webpack-webmanifest-loader": "^2.0.2"
