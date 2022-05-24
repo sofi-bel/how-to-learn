@@ -64,7 +64,7 @@
     "sass": "^1.51.0",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
-    "stylelint": "^14.8.2",
+    "stylelint": "^14.8.4",
     "stylelint-config-hudochenkov": "^7.0.1",
     "stylelint-config-prettier-scss": "^0.0.1",
     "stylelint-config-standard-scss": "^3.0.0",
@@ -75,7 +75,7 @@
     "stylelint-scss": "^4.2.0",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.8.1",
+    "webpack-dev-server": "^4.9.0",
     "webpack-webmanifest-loader": "^2.0.2"
   },
   "dependencies": {
