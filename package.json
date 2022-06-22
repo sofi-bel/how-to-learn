@@ -40,7 +40,7 @@
     "url": "https://github.com/a-meti/how-to-learn/issues"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.2",
+    "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
     "@prettier/plugin-pug": "^2.0.0",
     "babel-loader": "^8.2.5",
@@ -57,7 +57,7 @@
     "mini-css-extract-plugin": "^2.6.0",
     "postcss": "^8.4.12",
     "postcss-loader": "^6.2.1",
-    "postcss-preset-env": "^7.4.3",
+    "postcss-preset-env": "^7.7.1",
     "prettier": "^2.6.2",
     "pug": "^3.0.2",
     "pug-loader": "^2.4.0",
