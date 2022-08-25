@@ -2,8 +2,8 @@
   <h1>How to learn</h1>
   <p>A landing page about educational techniques and statistics in teaching.</p>
 <a href="https://wakatime.com/badge/user/29a8352f-15fa-421a-b8ff-a7adff87a0dc/project/9f1fe3d1-b18a-4869-883a-abeeb65d8f2a"><img src="https://wakatime.com/badge/user/29a8352f-15fa-421a-b8ff-a7adff87a0dc/project/9f1fe3d1-b18a-4869-883a-abeeb65d8f2a.svg?style=for-the-badge&logo=appveyor" alt="wakatime"></a>
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/a-meti/how-to-learn?style=for-the-badge">
-<a href="https://github.com/a-meti/how-to-learn/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/a-meti/how-to-learn?style=for-the-badge"></a>
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sofi-bel/how-to-learn?style=for-the-badge">
+<a href="https://github.com/sofi-bel/how-to-learn/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/sofi-bel/how-to-learn?style=for-the-badge"></a>
 <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -33,7 +33,7 @@
 Clone the repo
 
 ```
-git clone https://github.com/a-meti/how-to-learn.git
+git clone https://github.com/sofi-bel/how-to-learn.git
 ```
 Install dependencies
 ```
@@ -54,7 +54,7 @@ yarn run dev
 
 ### Demo
 
-[Look at the result.](https://a-meti.github.io/how-to-learn/)
+[Look at the result.](https://sofi-bel.github.io/how-to-learn/)
 
 
 
