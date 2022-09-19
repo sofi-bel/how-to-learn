@@ -5843,10 +5843,10 @@ stylehacks@^5.1.0:
     browserslist "^4.16.6"
     postcss-selector-parser "^6.0.4"
 
-stylelint-config-hudochenkov@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/stylelint-config-hudochenkov/-/stylelint-config-hudochenkov-7.0.1.tgz#862058f133fc12435764482076c2e2f3ae7619a6"
-  integrity sha512-O/ZVUFOZO+KDO6pEFIRXmoDraT5Qfs99pRJ3KDOW6SIE9IoZWfn4CYNFbKGUBPp++K+HJhHNQBSNDkfbOJXzJQ==
+stylelint-config-hudochenkov@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-hudochenkov/-/stylelint-config-hudochenkov-8.0.0.tgz#15d7ff7a10c603a51e09e777829d3312d42746a4"
+  integrity sha512-luy7L5tyOA2PnehQdTD4PxqI8TzQ7N22apfrnpGZbhsKI7uhCTTliCKH6ffn6Yn4peWVs09h+VNK033svs4GjQ==
 
 stylelint-config-prettier-scss@^0.0.1:
   version "0.0.1"
