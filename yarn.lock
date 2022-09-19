@@ -2112,10 +2112,10 @@ core-js-compat@^3.25.1:
   dependencies:
     browserslist "^4.21.3"
 
-core-js@^3.25.0:
-  version "3.25.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.25.0.tgz#be71d9e0dd648ffd70c44a7ec2319d039357eceb"
-  integrity sha512-CVU1xvJEfJGhyCpBrzzzU1kjCfgsGUxhEvwUV2e/cOedYWHdmluamx+knDnmhqALddMG16fZvIqvs9aijsHHaA==
+core-js@^3.25.2:
+  version "3.25.2"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.25.2.tgz#2d3670c1455432b53fa780300a6fc1bd8304932c"
+  integrity sha512-YB4IAT1bjEfxTJ1XYy11hJAKskO+qmhuDBM8/guIfMz4JvdsAQAqvyb97zXX7JgSrfPLG5mRGFWJwJD39ruq2A==
 
 core-util-is@~1.0.0:
   version "1.0.3"
@@ -5843,10 +5843,10 @@ stylehacks@^5.1.0:
     browserslist "^4.16.6"
     postcss-selector-parser "^6.0.4"
 
-stylelint-config-hudochenkov@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/stylelint-config-hudochenkov/-/stylelint-config-hudochenkov-7.0.1.tgz#862058f133fc12435764482076c2e2f3ae7619a6"
-  integrity sha512-O/ZVUFOZO+KDO6pEFIRXmoDraT5Qfs99pRJ3KDOW6SIE9IoZWfn4CYNFbKGUBPp++K+HJhHNQBSNDkfbOJXzJQ==
+stylelint-config-hudochenkov@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-hudochenkov/-/stylelint-config-hudochenkov-8.0.0.tgz#15d7ff7a10c603a51e09e777829d3312d42746a4"
+  integrity sha512-luy7L5tyOA2PnehQdTD4PxqI8TzQ7N22apfrnpGZbhsKI7uhCTTliCKH6ffn6Yn4peWVs09h+VNK033svs4GjQ==
 
 stylelint-config-prettier-scss@^0.0.1:
   version "0.0.1"
