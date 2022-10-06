@@ -46,10 +46,7 @@ class LiteYTEmbed extends HTMLElement {
         this.setAttribute('videoPlay', name);
     }
     get videoStartAt() {
-        return Number(this.getAttribute('videoStartAt') || '0');
-    }
-    set videoStartAt(time) {
-        this.setAttribute('videoStartAt', String(time));
+        return this.getAttribute('videoStartAt') || '0';
     }
     get autoLoad() {
         return this.hasAttribute('autoload');
@@ -61,10 +58,14 @@ class LiteYTEmbed extends HTMLElement {
         return this.getAttribute('posterquality') || 'hqdefault';
     }
     get posterLoading() {
-        return this.getAttribute('posterloading') || 'lazy';
+        return (this.getAttribute('posterloading') ||
+            'lazy');
     }
     get params() {
         return `start=${this.videoStartAt}&${this.getAttribute('params')}`;
+    }
+    set params(opts) {
+        this.setAttribute('params', opts);
     }
     setupDom() {
         const shadowDom = this.attachShadow({ mode: 'open' });
@@ -79,6 +80,12 @@ class LiteYTEmbed extends HTMLElement {
           --lyt-animation: all 0.2s cubic-bezier(0, 0, 0.2, 1);
           --lyt-play-btn-default: #212121;
           --lyt-play-btn-hover: #f00;
+        }
+
+        @media (max-width: 40em) {
+          :host([short]) {
+            padding-bottom: calc(100% / (9 / 16));
+          }
         }
 
         #frame, #fallbackPlaceholder, iframe {
@@ -137,6 +144,7 @@ class LiteYTEmbed extends HTMLElement {
           top: 50%;
           left: 50%;
           transform: translate3d(-50%, -50%, 0);
+          cursor: inherit;
         }
 
         /* Post-click styles */
@@ -153,7 +161,7 @@ class LiteYTEmbed extends HTMLElement {
         <picture>
           <source id="webpPlaceholder" type="image/webp">
           <source id="jpegPlaceholder" type="image/jpeg">
-          <img id="fallbackPlaceholder" referrerpolicy="origin">
+          <img id="fallbackPlaceholder" referrerpolicy="origin" loading="lazy">
         </picture>
         <button id="playButton"></button>
       </div>
@@ -170,14 +178,16 @@ class LiteYTEmbed extends HTMLElement {
         this.initImagePlaceholder();
         this.domRefPlayButton.setAttribute('aria-label', `${this.videoPlay}: ${this.videoTitle}`);
         this.setAttribute('title', `${this.videoPlay}: ${this.videoTitle}`);
-        if (this.autoLoad) {
+        if (this.autoLoad || this.isYouTubeShort()) {
             this.initIntersectionObserver();
         }
     }
     attributeChangedCallback(name, oldVal, newVal) {
         switch (name) {
             case 'videoid':
-            case 'playlistid': {
+            case 'playlistid':
+            case 'videoTitle':
+            case 'videoPlay': {
                 if (oldVal !== newVal) {
                     this.setupComponent();
                     if (this.domRefFrame.classList.contains('activated')) {
@@ -194,7 +204,7 @@ class LiteYTEmbed extends HTMLElement {
     }
     addIframe(isIntersectionObserver = false) {
         if (!this.isIframeLoaded) {
-            const autoplay = isIntersectionObserver ? 0 : 1;
+            let autoplay = isIntersectionObserver ? 0 : 1;
             const wantsNoCookie = this.noCookie ? '-nocookie' : '';
             let embedTarget;
             if (this.playlistId) {
@@ -202,6 +212,10 @@ class LiteYTEmbed extends HTMLElement {
             }
             else {
                 embedTarget = `${this.videoId}?`;
+            }
+            if (this.isYouTubeShort()) {
+                this.params = `loop=1&mute=1&modestbranding=1&playsinline=1&rel=0&enablejsapi=1&playlist=${this.videoId}`;
+                autoplay = 1;
             }
             const iframeHTML = `
 <iframe frameborder="0"
@@ -211,6 +225,7 @@ class LiteYTEmbed extends HTMLElement {
             this.domRefFrame.insertAdjacentHTML('beforeend', iframeHTML);
             this.domRefFrame.classList.add('activated');
             this.isIframeLoaded = true;
+            this.attemptShortAutoPlay();
             this.dispatchEvent(new CustomEvent('liteYoutubeIframeLoaded', {
                 detail: {
                     videoId: this.videoId,
@@ -248,13 +263,23 @@ class LiteYTEmbed extends HTMLElement {
         }, options);
         observer.observe(this);
     }
-    static addPrefetch(kind, url, as) {
+    attemptShortAutoPlay() {
+        if (this.isYouTubeShort()) {
+            setTimeout(() => {
+                this.shadowRoot
+                    .querySelector('iframe')
+                    ?.contentWindow?.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
+            }, 2000);
+        }
+    }
+    isYouTubeShort() {
+        return (this.getAttribute('short') === '' &&
+            window.matchMedia('(max-width: 40em)').matches);
+    }
+    static addPrefetch(kind, url) {
         const linkElem = document.createElement('link');
         linkElem.rel = kind;
         linkElem.href = url;
-        if (as) {
-            linkElem.as = as;
-        }
         linkElem.crossOrigin = 'true';
         document.head.append(linkElem);
     }
