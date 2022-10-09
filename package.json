@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A landing page about educational techniques and statistics in teaching.",
   "private": "true",
-  "homepage": "https://a-meti.github.io/how-to-learn/",
+  "homepage": "https://sofi-bel.github.io/how-to-learn/",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve --mode development",
     "dev": "cross-env NODE_ENV=development webpack --mode development",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a-meti/how-to-learn.git"
+    "url": "git+https://github.com/sofi-bel/how-to-learn.git"
   },
   "keywords": [
     "HTML5",
@@ -34,10 +34,10 @@
     "Semantic layout",
     "Webpack"
   ],
-  "author": "Anastasiia Metikova <metikova3@icloud.com>",
+  "author": "Sofi Bel <s_bel3@icloud.com>",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/a-meti/how-to-learn/issues"
+    "url": "https://github.com/sofi-bel/how-to-learn/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
