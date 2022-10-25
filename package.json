@@ -80,7 +80,7 @@
   },
   "dependencies": {
     "@justinribeiro/lite-youtube": "^1.4.0",
-    "core-js": "^3.25.5",
+    "core-js": "^3.26.0",
     "normalize.css": "^8.0.1"
   }
 }
