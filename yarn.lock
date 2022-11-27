@@ -6466,10 +6466,10 @@ webpack-webmanifest-loader@^2.0.2:
   resolved "https://registry.yarnpkg.com/webpack-webmanifest-loader/-/webpack-webmanifest-loader-2.0.2.tgz#d0ca3713fb718f7a1cc7955fe88a45f5d0fa8c6c"
   integrity sha512-E+OefPW2D0EzwDzGlgRAFj4nUoZRp17dHzGng081hReWannJGZ8dxZErbEnFmaR+Z2A6hWYAv7yEKFk+bTuLNA==
 
-webpack@^5.74.0:
-  version "5.74.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.74.0.tgz#02a5dac19a17e0bb47093f2be67c695102a55980"
-  integrity sha512-A2InDwnhhGN4LYctJj6M1JEaGL7Luj6LOmyBHjcI8529cm5p6VXiTIW2sn6ffvEAKmveLzvu4jrihwXtPojlAA==
+webpack@^5.75.0:
+  version "5.75.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.75.0.tgz#1e440468647b2505860e94c9ff3e44d5b582c152"
+  integrity sha512-piaIaoVJlqMsPtX/+3KTTO6jfvrSYgauFVdt8cr9LTHKmcq/AMd4mhzsiP7ZF/PGRNPGA8336jldh9l2Kt2ogQ==
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^0.0.51"
