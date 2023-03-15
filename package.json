@@ -63,7 +63,7 @@
     "pug-loader": "^2.4.0",
     "sass": "^1.59.2",
     "sass-loader": "^13.2.0",
-    "style-loader": "^3.3.1",
+    "style-loader": "^3.3.2",
     "stylelint": "^14.16.1",
     "stylelint-config-hudochenkov": "^8.0.1",
     "stylelint-config-prettier-scss": "^0.0.1",
