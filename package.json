@@ -40,7 +40,7 @@
     "url": "https://github.com/sofi-bel/how-to-learn/issues"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.3",
+    "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.20.2",
     "@prettier/plugin-pug": "^2.5.0",
     "babel-loader": "^9.1.2",
