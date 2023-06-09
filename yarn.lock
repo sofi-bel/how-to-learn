@@ -1418,10 +1418,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@prettier/plugin-pug@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-pug/-/plugin-pug-2.5.0.tgz#dd10a099c802326638b2a0596bccd98816884a29"
-  integrity sha512-wanovQUyfTLPGp6M622R7qPX7QMsJHmxFCMckOdOtZd0cWr7zv6uI7EGXOAL4qUp5wY9ZolIxp23JkMCWX5Mvg==
+"@prettier/plugin-pug@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-pug/-/plugin-pug-2.5.1.tgz#ea7fc06cc6b86a5d3ad6607d8e50b2bab30fcc40"
+  integrity sha512-rauAMYyTv6tgoo4DZ+1TwpytjaoJgcg+8btp0CfAUaHwjxfNo4cuAGgsJS6WVT7vx2Sz4Pkos50xuSNZuvJAWQ==
   dependencies:
     pug-lexer "^5.0.1"
 
