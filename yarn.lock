@@ -6509,10 +6509,10 @@ stylelint-prettier@^3.0.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-stylelint-sass-render-errors@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/stylelint-sass-render-errors/-/stylelint-sass-render-errors-3.0.1.tgz#d161b2966f14b9b0156261023e98105b789517ca"
-  integrity sha512-65LanoDmmi/rIzWloRKsyVKNtk9BuxHSouxHFvyRq2FSwtqMnk6qikLphqs0oVr6ozQsYcWZTeiGyfY0PcopMg==
+stylelint-sass-render-errors@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/stylelint-sass-render-errors/-/stylelint-sass-render-errors-3.0.2.tgz#da4ecf874ee81b7d46533ba0ba4d2341f4b15891"
+  integrity sha512-xBDek9Pr9Ueoeqzzm9EmNzngqXySFe9aUMBseQbn2PoAuGZTjZtYZXJMA+7wwwGHQY/i8mn5AzmXDzlFjBeyhg==
   dependencies:
     ajv "^8.6.2"
     many-keys-map "^1.0.3"
