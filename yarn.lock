@@ -6393,10 +6393,10 @@ sass-loader@^13.3.2:
   dependencies:
     neo-async "^2.6.2"
 
-sass-render-errors@^1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/sass-render-errors/-/sass-render-errors-1.8.3.tgz#33a32592d424b31e19e2e554224b0dfce8b25e2d"
-  integrity sha512-luHZjpq++qrTCqTY9MhGCAWxhWLUS+Lf+tqPZcqpnC2SyMLm7+i7eJEUp7etqsUSMAMVJQW5MtHhhP+S/3C2Hg==
+sass-render-errors@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/sass-render-errors/-/sass-render-errors-1.9.0.tgz#11b51d60afc22f5551b965432611d0b131f065af"
+  integrity sha512-fzdXU+eqaa7ZWdFg7uMEijBuB5awh8LGX4zngyVOsbxjBbQRojY9CVjeDv7iQDkly1mbR0nQKBBCzJrJaiMh+w==
   dependencies:
     "@types/sass" "^1.16.1"
     css-functions-list "^2.0.0"
@@ -6862,10 +6862,10 @@ stylelint-prettier@^4.0.2:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-stylelint-sass-render-errors@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/stylelint-sass-render-errors/-/stylelint-sass-render-errors-3.1.0.tgz#3edec7155f5b958124a9c1123d66cd5db4a597b7"
-  integrity sha512-Tojf4VOA59vsSvfHJy2F5OhYgeIek2dbPIdLarSo/xAPqoO2tpTTylFl3cFiQYZFP8XMuZnsCNM6um6ZZfoa+A==
+stylelint-sass-render-errors@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-sass-render-errors/-/stylelint-sass-render-errors-3.2.0.tgz#8bc28d915cc70d9fe54b6ccb84abe7917855e6fe"
+  integrity sha512-vNdIh7NrxJP1btKq8FQACwHCP9MbzmPSqHOq4yKLLY6x0MIDkFYIuQaarInw02yqfObquop+Ea4sgcdHlxd97A==
   dependencies:
     ajv "^8.6.2"
     many-keys-map "^1.0.3"
@@ -6873,7 +6873,7 @@ stylelint-sass-render-errors@^3.1.0:
     p-memoize "^4.0.1"
     pkg-up "^3.1.0"
     resolve-from "^5.0.0"
-    sass-render-errors "^1.8.3"
+    sass-render-errors "^1.9.0"
 
 stylelint-scss@^5.1.0, stylelint-scss@^5.2.1:
   version "5.2.1"
