@@ -71,7 +71,7 @@
     "stylelint-high-performance-animation": "^1.9.0",
     "stylelint-order": "^6.0.3",
     "stylelint-prettier": "^4.0.2",
-    "stylelint-sass-render-errors": "^3.1.0",
+    "stylelint-sass-render-errors": "^3.2.0",
     "stylelint-scss": "^5.2.1",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
