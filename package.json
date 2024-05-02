@@ -62,7 +62,7 @@
     "pug": "^3.0.2",
     "pug-loader": "^2.4.0",
     "sass": "^1.74.1",
-    "sass-loader": "^14.1.1",
+    "sass-loader": "^14.2.1",
     "style-loader": "^4.0.0",
     "stylelint": "^15.11.0",
     "stylelint-config-hudochenkov": "^9.0.0",
