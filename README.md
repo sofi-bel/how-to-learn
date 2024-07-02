@@ -14,48 +14,54 @@
 </div>
 
 ## Stack
-* HTML5 & CSS3
-* Pug
-* SCSS
-* Flexbox
-* CSS grid
-* BEM
-* Adaptive web design
-* Responsive web design
-* Mobile first
-* Media queries
-* Web accessibility
-* Relative units
-* Semantic layout
-* Webpack
+
+- HTML5 & CSS3
+- Pug
+- SCSS
+- Flexbox
+- CSS grid
+- BEM
+- Adaptive web design
+- Responsive web design
+- Mobile first
+- Media queries
+- Web accessibility
+- Relative units
+- Semantic layout
+- Webpack
 
 ## Build Setup
+
 Clone the repo
 
 ```
 git clone https://github.com/sofi-bel/how-to-learn.git
 ```
+
 Install dependencies
+
 ```
-yarn install
+npm install
 ```
+
 Server with hot reload at http://localhost:9000/
+
 ```
-yarn run start
+npm run start
 ```
+
 Production Build
+
 ```
-yarn run build
+npm run build
 ```
+
 Development mode
+
 ```
-yarn run dev
+npm run dev
 ```
 
 ### Demo
 
 [Look at the result.](https://sofi-bel.github.io/how-to-learn/)
-
-
-
-
