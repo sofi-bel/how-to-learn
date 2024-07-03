@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk"] = self["webpackChunk"] || []).push([[179],{
+(self["webpackChunk"] = self["webpackChunk"] || []).push([[792],{
 
-/***/ 531:
+/***/ 779:
 /***/ (function() {
 
 
@@ -69,17 +69,18 @@ class LiteYTEmbed extends HTMLElement {
     }
     setupDom() {
         const shadowDom = this.attachShadow({ mode: 'open' });
+        let nonce = '';
+        if (window.liteYouTubeNonce) {
+            nonce = `nonce="${window.liteYouTubeNonce}"`;
+        }
         shadowDom.innerHTML = `
-      <style>
+      <style ${nonce}>
         :host {
           contain: content;
           display: block;
           position: relative;
           width: 100%;
           padding-bottom: calc(100% / (16 / 9));
-          --lyt-animation: all 0.2s cubic-bezier(0, 0, 0.2, 1);
-          --lyt-play-btn-default: #212121;
-          --lyt-play-btn-hover: #f00;
         }
 
         @media (max-width: 40em) {
@@ -111,24 +112,17 @@ class LiteYTEmbed extends HTMLElement {
           background-image: linear-gradient(180deg, #111 -20%, transparent 90%);
           height: 60px;
           width: 100%;
-          transition: var(--lyt-animation);
           z-index: 1;
         }
 
         #playButton {
-          width: 70px;
-          height: 46px;
-          background-color: var(--lyt-play-btn-hover);
+          width: 68px;
+          height: 48px;
+          background-color: transparent;
+          background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/><path d="M45 24 27 14v20" fill="white"/></svg>');
           z-index: 1;
-          opacity: 0.8;
-          border-radius: 14%;
-          transition: var(--lyt-animation);
           border: 0;
-        }
-
-        #frame:hover > #playButton {
-          background-color: var(--lyt-play-btn-hover);
-          opacity: 1;
+          border-radius: inherit;
         }
 
         #playButton:before {
@@ -218,7 +212,7 @@ class LiteYTEmbed extends HTMLElement {
                 autoplay = 1;
             }
             const iframeHTML = `
-<iframe frameborder="0"
+<iframe frameborder="0" title="${this.videoTitle}"
   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
   src="https://www.youtube${wantsNoCookie}.com/embed/${embedTarget}autoplay=${autoplay}&${this.params}"
 ></iframe>`;
@@ -236,7 +230,6 @@ class LiteYTEmbed extends HTMLElement {
         }
     }
     initImagePlaceholder() {
-        LiteYTEmbed.addPrefetch('preconnect', 'https://i.ytimg.com/');
         const posterUrlWebp = `https://i.ytimg.com/vi_webp/${this.videoId}/${this.posterQuality}.webp`;
         const posterUrlJpeg = `https://i.ytimg.com/vi/${this.videoId}/${this.posterQuality}.jpg`;
         this.domRefImg.fallback.loading = this.posterLoading;
@@ -284,14 +277,16 @@ class LiteYTEmbed extends HTMLElement {
         document.head.append(linkElem);
     }
     static warmConnections() {
-        if (LiteYTEmbed.isPreconnected)
+        if (LiteYTEmbed.isPreconnected || window.liteYouTubeIsPreconnected)
             return;
+        LiteYTEmbed.addPrefetch('preconnect', 'https://i.ytimg.com/');
         LiteYTEmbed.addPrefetch('preconnect', 'https://s.ytimg.com');
         LiteYTEmbed.addPrefetch('preconnect', 'https://www.youtube.com');
         LiteYTEmbed.addPrefetch('preconnect', 'https://www.google.com');
         LiteYTEmbed.addPrefetch('preconnect', 'https://googleads.g.doubleclick.net');
         LiteYTEmbed.addPrefetch('preconnect', 'https://static.doubleclick.net');
         LiteYTEmbed.isPreconnected = true;
+        window.liteYouTubeIsPreconnected = true;
     }
 }
 LiteYTEmbed.isPreconnected = false;
@@ -306,6 +301,6 @@ customElements.define('lite-youtube', LiteYTEmbed);
 },
 /******/ function(__webpack_require__) { // webpackRuntimeModules
 /******/ var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-/******/ var __webpack_exports__ = (__webpack_exec__(531));
+/******/ var __webpack_exports__ = (__webpack_exec__(779));
 /******/ }
 ]);
