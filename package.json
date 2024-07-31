@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.24.7",
-    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-env": "^7.25.3",
     "@prettier/plugin-pug": "^3.0.0",
     "ajv": "^8.16.0",
     "ajv-keywords": "^5.1.0",
