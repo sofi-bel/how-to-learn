@@ -63,7 +63,7 @@
     "prettier": "^3.3.2",
     "pug": "^3.0.3",
     "pug-loader": "^2.4.0",
-    "sass": "^1.77.6",
+    "sass": "^1.82.0",
     "sass-loader": "^14.2.1",
     "style-loader": "^4.0.0",
     "stylelint": "^15.11.0",
